@@ -1,0 +1,3192 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="gas mileage, compare cars, EPA gas mileage estimates, greenhouse gases, global warming, fuel economy, MPG, green cars, fuel efficient, mileage, car search, car buyers guide, trucks">
+	<meta name="description" content="1984 to present Buyer's Guide to Fuel Efficient Cars and Trucks. Estimates of gas mileage, greenhouse gas emissions, safety ratings, and air pollution ratings for new and used cars and trucks.">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Cache-Contents" content="no-cache">
+	<meta http-equiv="Expires" content=0>
+
+<meta http-equiv="pragma" content="no-cache"> 
+
+	<title>Power Search</title>
+
+	<!-- Core CSS files for fueleconomy.gov -->
+
+<!-- CSS for Bootstrap -->
+<link rel="stylesheet" href="/feg/assets/bs3/dist/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/smoothness/jquery-ui.css">
+
+<!-- CSS for FEG-specific content -->
+<link rel="stylesheet" type="text/css" href="/feg/assets/css/feg.css">
+
+<!--[if IE 8 ]> <html class="ie8"> <![endif]-->
+
+<link rel="apple-touch-icon" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-144x144.png">
+
+
+	<style type="text/css">
+		.veh-class-caption {text-align: center}
+		.altFuelImage {float: left; margin-right: 15px; text-align: center}
+		.altFuelImage img {margin-top: 10px; margin-left: auto; margin-right: auto}
+		.panel-body {padding: 10px}
+		.selections ul {margin-left: 0; padding-left: 0}
+		.selections li {margin-left: 0; list-style-type: none}
+		.selections h2 {margin-top: 0}
+		.selections h4.panel-title {font-weight: bold; color: #003366; margin-bottom: 5px}
+		.selections .title {font-weight: bold; color: #333}
+		#collapse-mpg label {font-weight: normal}
+		.personalize .panel-body {padding: 5px}
+		.most-viewed > ul {padding-left: 0}
+		.most-viewed > ul li {list-style: none; margin-bottom: .5em}
+		.most-viewed {padding: 15px 10px 0 10px}
+		.btn-xs {font-size: 10px; font-weight: normal; color: #666; padding: 0 2px 0 2px}
+
+		.spacerlt {
+			margin: 2px 5px 2px 10px;
+			padding: 2px 5px 2px 10px;
+		}
+
+		.spacerrt {
+			margin: 2px 5px 2px 10px;
+			padding: 2px 5px 2px 10px;
+		}
+		.toprow {
+			margin: 5px 5px 0px 10px;
+			padding:5px 5px 0px 10px;
+		}
+
+		/* Responsive Design */
+		/* Landscape phones and down */
+		@media (max-width: 480px) {
+			.personalize {margin-top: 5px}
+		}
+
+		/* Landscape phone to portrait tablet */
+		@media (max-width: 767px) {
+			.personalize {margin-top: 5px}
+		}
+
+		/* Portrait tablet to landscape and desktop */
+		@media (min-width: 768px) and (max-width: 1199px) {
+			#collapse-make label {font-size: 11px}
+			.personalize {padding: 0}
+		}
+
+		/* Large desktop */
+		@media (min-width: 1200px) {
+			.personalize {padding: 0}
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<!-- Header and Top Navigation -->
+<!-- Uses Bootstrap-based Mega Menu -->
+
+<!-- Skip navigation for accessbility -->
+<div class="skipnav"><a href="#main-content">Skip to main content</a></div>
+	
+	
+<!-- Main Site Header -->	
+
+<header>
+	<div class="sponsor">
+	<!--Sponsor row-->
+		<div class="container">
+			<div class="row hidden-xs" id="sponsor-head" style="margin-bottom: 2px; margin-top: 5px">
+				<div class="col-sm-12" style="display: flex; justify-content: space-between; align-items: center">
+					<a href="https://www.eere.energy.gov" target="_parent">
+						<img src="/feg/images/home/Logo_Black_Seal_Black_Lettering_Horizontal.png" alt="U.S. Department of Energy - Energy Efficiency and Renewable Energy" style="max-height: 35px; min-width: 100px">
+					</a>
+					<a href="https://www.epa.gov/otaq/" target="_parent">
+						<img src="/feg/images/home/EPA_logo_black.png" alt="U.S. Environmental Protection Agency - Office of Transportation and Air Quality" style="height: 33px; padding: 6px 0 6px 0; opacity: 75%">
+					</a>
+				</div>
+			</div><!-- End of Sponsor row -->
+		</div>
+	</div>
+	
+	<!-- Logo & mini menu -->
+	<div class="logo-row hidden-xs">
+		<div class="container">
+			<div class="row hidden-xs" id="hd">
+			
+				<div id="feg-logo" class="col-sm-6">
+					<a href="https://www.fueleconomy.gov" style="text-decoration: none;"><img class="img-responsive" style="text-decoration: none;" src="/feg/images/home/fe-logo-bs.png" alt="www.fueleconomy.gov - the official government source for fuel economy information"></a>
+				</div>
+
+				<!-- Mini Menu -->
+				<div id="mini-menu" class="col-sm-6 hidden-xs">
+					<nav>
+						<ul class="inline text-right">
+							<li><a href="/m">Mobile</a></li>
+							<li><a href="/feg/esIndex.shtml">Espa&ntilde;ol</a></li>
+							<li><a href="/feg/sitemap.shtml">Site Map</a></li>
+							<li><a href="/feg/links.shtml"><span class="sr-only">General </span>Links</a></li>
+							<li><a href="/feg/info.shtml">FAQ</a></li>
+							<li><a href="/feg/videos.shtml">Videos</a></li>
+						</ul>
+					</nav>
+				</div><!-- end of #mini-menu -->
+			  
+			</div><!-- End of .row #hd -->  
+		</div>
+	</div><!-- End of Logo & mini menu -->  
+	
+</header>	
+
+<!-- Mega Menu -->
+<nav>
+<div class="main-nav navbar navbar-default" role="navigation">
+ <div class="container nav-container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+	  <span class="sr-only">Toggle navigation</span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	  <span class="icon-bar"></span>
+	</button>
+	<a class="navbar-brand visible-xs" href="index.shtml"><img class="img-responsive" src="/feg/images/home/fe-brand-1a558f.png" alt="www.fueleconomy.gov - the official government source for fuel economy information"></a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+	<ul class="nav navbar-nav">
+	
+	  <!-- Find a Car Dropdown -->
+	  <li class="dropdown">
+		<a href="/feg/findacar.shtml" class="dropdown-toggle" data-toggle="dropdown">Find a Car</a>
+		<ul id="searches" class="dropdown-menu row">
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header hidden-xs">Searches</li>
+				<li><a href="/feg/findacar.shtml">Find a Car &ndash; Home</a></li>
+				<li><a href="/feg/Find.do?action=sbsSelect">Compare Side by Side</a></li>
+				<li><a href="/feg/powerSearch.jsp">Power Search</a></li>
+				<li><a href="/feg/make.shtml">Search by Make</a></li>
+				<li><a href="/feg/alternatives.shtml">Hybrids, Diesels, and Alternative Fuel Cars</a></li>
+				<li><a href="/feg/SmartWay.do">Find a SmartWay Vehicle</a></li>
+				<li><a href="/feg/best-worst.shtml">Best and Worst Vehicles</a></li>
+				<li><a href="/feg/topten.jsp">Fueleconomy.gov Top Ten</a></li>
+				<li><a href="/feg/mostViewed.shtml">Today's Most Viewed Vehicles</a></li>
+				<li class="visible-xs"><a href="/feg/UsedCarLabel.jsp">Used Car Label</a></li>
+			  </ul>
+			  <ul class="submenu">
+				<li class="header hidden-xs">Fuel Economy Guides</li>
+				<li><a href="/feg/printGuides.shtml">Print the Guide</a></li>
+				<li><a href="/feg/guides.shtml">Help Promote Fuel Economy</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4 hidden-xs">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/findacar.shtml">Find a Car &ndash; Home</a></li>
+				<li class="hidden-xs">
+					<div class="img-caption" style="width: 15.385em; height: 14.23em; *width: 15em; *height: 13.875em;">
+						<a href="/feg/findacar.shtml">
+							<img src="/feg/images/topnav/findacar2_mm.jpg" alt="Photo: Couple shopping for car">
+							<div class="mmcap">Find a fuel efficient vehicle that meets your needs</div>
+						</a>
+					</div>
+				</li>
+			  </ul>
+			</li>
+			<li class="col-sm-4 hidden-xs">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/UsedCarLabel.jsp">Used Car Label</a>
+				<li class="hidden-xs">
+					<div class="img-caption" style="width: 15.385em; height: 14.23em; *width: 15em; *height: 13.875em;">
+						<a href="/feg/UsedCarLabel.jsp">
+							<img src="/feg/images/topnav/used-label-med.png" alt="Used Car Label">
+							<div class="mmcap">Selling your car? We can help you advertise its mpg.</div>
+						</a>
+					</div>
+				</li>
+			  </ul>
+			</li>
+		</ul>
+	  </li>
+	  <!-- end of Find a Car dropdown -->
+	  
+	  <!-- Find a Save Money and Fuel dropdown -->
+	  <li class="dropdown">
+		<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Save Money &amp; Fuel</a>
+		<ul id="save" class="dropdown-menu row">
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/drive.shtml">Gas Mileage Tips</a></li>
+				<li class="hidden-xs"><a href="/feg/driveHabits.jsp">Driving More Efficiently</a></li>
+				<li class="hidden-xs"><a href="/feg/maintain.jsp">Keeping Your Car in Shape</a></li>
+				<li class="hidden-xs"><a href="/feg/planning.shtml">Planning and Combining Trips</a></li>
+				<li class="hidden-xs"><a href="/feg/choosing.jsp">Choosing a More Efficient Vehicle</a></li>
+				<li class="hidden-xs"><a href="/feg/evtips.shtml">Tips for Hybrids, Plug-in Hybrids, and Electric Vehicles</a></li>		
+				<li class="hidden-xs"><a href="/feg/coldweather.shtml">Fuel Economy in Cold Weather</a></li>	
+				<li class="hidden-xs"><a href="/feg/hotweather.shtml">Fuel Economy in Hot Weather</a></li>	
+				<li class="hidden-xs"><a href="/feg/moinfo.shtml">More Information</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/taxcenter.shtml">Tax Incentives</a></li>
+				<li class="hidden-xs"><a href="/feg/tax2023.shtml">Credits for New Vehicles Purchased in 2023 or After</a></li>
+				<li class="hidden-xs"><a href="/feg/taxused.shtml">Credits for Pre-Owned Vehicles Purchased in 2023 or After</a></li>
+				<li class="hidden-xs"><a href="/feg/tax2022.shtml">Credits for New Vehicles Purchased Before 2023</a></li>
+				<li class="hidden-xs"><a href="/feg/taxfaqs.shtml">Frequently Asked Questions</a></li>
+			 </ul>
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/gasprices/index.shtml">Gasoline Prices</a></li>
+				<li class="hidden-xs"><a href="/feg/gasprices/states/index.shtml">Local Prices</a></li>
+				<li class="hidden-xs"><a href="/feg/gasprices/faq.shtml">Questions About Gas Prices</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header hidden-xs">Cost Calculators</li>
+				<li><a href="/feg/savemoney.jsp">Fuel Savings Calculator</a></li>
+				<li><a href="/trip/">Trip Calculator</a></li>
+				<li><a href="/feg/hybridCompare.jsp">Can a Hybrid Save Me Money?</a></li>
+				<li><a href="/feg/Find.do?action=phev1Prompt">My Plug-in Hybrid Calculator</a></li>
+			  </ul>
+			</li>
+		</ul>
+	  </li>
+	  <!-- end of Save Money and Fuel dropdown -->
+	  
+	  <!-- Benefits Dropdown -->
+	  <li class="dropdown">
+		<a href="/feg/why.shtml" class="dropdown-toggle" data-toggle="dropdown">Benefits</a>
+		<ul id="benefits" class="dropdown-menu row">
+			<li class="col-sm-5">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/why.shtml">Why is fuel economy important?</a></li>
+				<li><a href="/feg/savemoney.jsp">Save Money</a></li>
+				<li><a href="/feg/climate.shtml">Climate Change</a></li>
+				<li><a href="/feg/oildep.shtml">Oil Dependence Costs</a></li>
+				<li><a href="/feg/consres.shtml">Sustainability</a></li>
+			  </ul>
+			</li>
+			<li class="col-sm-7 hidden-xs">
+			  <ul class="submenu">
+				<li class="header">
+					<div class="img-caption" style="width: 19.23em; *width: 18.75em">
+						<a href="/feg/climate.shtml">
+							<img class="img-responsive" src="/feg/images/topnav/HouseholdCO2Pie_mm.jpg" alt="Pie chart showing that vehicles account for about 51% of a household's carbon footprint.">
+							<div class="mmcap">Vehicles produce about half of the greenhouse gases from a typical U.S. household.</div>
+						</a>
+					</div>
+				</li>
+			  </ul>
+			</li>
+		</ul>
+	  </li>
+	  <!-- end of Benefits dropdown -->		
+
+	  <!-- My MPG Dropdown -->
+	  <li class="dropdown">
+		<a href="/mpg/MPG.do" class="dropdown-toggle" data-toggle="dropdown">My MPG</a>
+		<ul id="mympg" class="dropdown-menu row">
+			<li class="col-sm-6">
+			  <ul class="submenu">
+				<li class="header"><a href="/mpg/MPG.do">My MPG - Home</a></li>
+				<li class="hidden-xs">
+					<div class="img-caption" style="width: 15.385em;  height: 16.385em; *width: 15em; *height: 15.975em;">
+						<a href="/mpg/MPG.do">
+							<img class="img-responsive" src="/feg/images/topnav/fuel_pump_mm.jpg" alt="Woman at fuel pump">
+							<div class="mmcap">We can help you calculate and track your fuel economy.</div>
+						</a>
+					</div>
+				</li>
+			  </ul>
+			</li>
+			<li class="col-sm-6">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/browseList.jsp?src=feg">MPG Estimates from Others</a></li>
+				<li class="hidden-xs">
+					<div class="img-caption" style="width: 19.23em;  height: 16.385em; *width: 18.75em; *height: 15.975em;">
+						<a href="/feg/browseList.jsp?src=feg">
+							<img class="img-responsive" src="/feg/images/topnav/realworldmpg_mm.jpg" alt="Example chart showing real-world MPG">
+							<div class="mmcap">MPG estimates from drivers like you!</div>
+						</a>
+					</div>
+				</li>
+			  </ul>
+			</li>
+		</ul>
+	  </li>
+	  <!-- end of My MPG dropdown -->	
+
+	  <!-- Advanced Vehicles and Fuels dropdown -->
+	  <li class="dropdown">
+		<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">Advanced Cars &amp; Fuels</a>
+		<ul id="advanced-vehicles" class="dropdown-menu row">
+			<li class="col-sm-3">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/evsplash.shtml">About Hybrid and Electric Cars</a></li>
+				<li class="hidden-xs">
+					<a href="/feg/evsplash.shtml">
+						<img class="thumbnail img-responsive" src="/feg/images/icon_plugin.gif" style="width: 80px" alt="Icon showing electrical plug-in and gas pump">
+						<small>A quick guide to the different kinds of hybrids and electric vehicles.</small>
+					</a>
+				</li>
+				
+				
+				<li class="header"><a href="/feg/evSelect.jsp">All-Electric Vehicles</a></li>
+				<li class="hidden-xs"><a href="/feg/evSelect.jsp">Compare Side by Side</a></li>
+				<li class="hidden-xs"><a href="/feg/evtech.shtml">About Electrics</a></li>
+				<li class="hidden-xs"><a href="/feg/evnews.shtml">New &amp; Upcoming</a></li>
+				<li class="hidden-xs"><a href="/feg/taxcenter.shtml">Tax Incentives</a></li>
+				<li class="hidden-xs"><a href="/feg/Find.do?action=bt2">GHG Emissions Calculator</a></li>
+				<li class="hidden-xs"><a href="/feg/evlinks.shtml">Electric Vehicle Links</a></li>
+				
+
+			  </ul>
+			</li>
+			
+			<li class="col-sm-3">
+			  <ul class="submenu">
+			  
+				<li class="header"><a href="/feg/hybridtech.shtml">Hybrids</a></li>
+				<li class="hidden-xs"><a href="/feg/hybrids.jsp">Compare Side by Side</a></li>
+				<li class="hidden-xs"><a href="/feg/hybridtech.shtml">How Hybrids Work</a></li>
+				<li class="hidden-xs"><a href="/feg/hybridCompare.jsp">Can a Hybrid Save Me Money?</a></li>
+				<li class="hidden-xs"><a href="/feg/hybrid_links.shtml">Hybrid Links</a></li>
+				
+				<li class="header"><a href="/feg/phevsbs.shtml">Plug-In Hybrids</a></li>
+				<li class="hidden-xs"><a href="/feg/phevsbs.shtml">Compare Side by Side</a></li>               
+				<li class="hidden-xs"><a href="/feg/phevtech.shtml">About Plug-in Hybrids</a></li>
+				<li class="hidden-xs"><a href="/feg/phevanim.shtml">How Plug-in Hybrids Save Money <span class="glyphicon glyphicon-facetime-video"></span></a></li>
+				<li><a href="/feg/Find.do?action=phev1Prompt">My Plug-in Hybrid Calculator</a></li>
+				<li class="hidden-xs"><a href="/feg/phevnews.shtml">New &amp; Upcoming</a></li>
+				<li class="hidden-xs"><a href="/feg/taxcenter.shtml">Tax Incentives</a></li>
+				<li class="hidden-xs"><a href="/feg/Find.do?action=bt2">GHG Emissions Calculator</a></li>
+				<li class="hidden-xs"><a href="/feg/phevlinks.shtml">Plug-in Hybrid Links</a></li>
+				
+			  </ul>
+			</li>
+			
+			<li class="col-sm-3">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/diesels.jsp">Diesels</a></li>
+				<li class="hidden-xs"><a href="/feg/diesels.jsp">Compare Side by Side</a></li>
+				<li class="hidden-xs"><a href="/feg/di_diesels.shtml">About Diesels</a></li>
+				<li class="hidden-xs"><a href="/feg/dieselnews.shtml">New &amp; Upcoming</a></li>
+				<li class="hidden-xs"><a href="/feg/lowsulfurdiesel.shtml">Ultra-Low Sulfur Diesel</a></li>
+				<li class="hidden-xs"><a href="/feg/biodiesel.shtml">Biodiesel</a></li> 
+				<li class="hidden-xs"><a href="/feg/diesellinks.shtml">Diesel Links</a></li>
+					
+				<li class="header"><a href="/feg/flextech.shtml">Flex-Fuel Vehicles</a></li>
+				<li class="hidden-xs"><a href="/feg/flextech.shtml">Flex-Fuel Vehicles</a></li>
+				<li class="hidden-xs"><a href="/feg/flexlinks.shtml">Flex-Fuel Links</a></li>
+			  </ul>
+			</li>
+			
+			<li class="col-sm-3">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/current.shtml">Alternative Fuels</a></li>
+				<li class="hidden-xs"><a href="/feg/ethanol.shtml">Ethanol</a></li>
+				<li class="hidden-xs"><a href="/feg/electricity.shtml">Electricity</a></li>
+				<li class="hidden-xs"><a href="/feg/biodiesel.shtml">Biodiesel</a></li>
+				<li class="hidden-xs"><a href="/feg/bifueltech.shtml">Natural Gas</a></li>
+				<li class="hidden-xs"><a href="/feg/hydrogen.shtml">Hydrogen</a></li> 
+				<li class="hidden-xs"><a href="/feg/lpg.shtml">Propane</a></li>
+				
+				
+				<li class="header"><a href="/feg/fuelcell.shtml">Fuel Cell Vehicles</a></li>
+				<li class="hidden-xs"><a href="/feg/fcvSelect.jsp">Compare Side by Side</a></li>
+				<li class="hidden-xs"><a href="/feg/fcv_PEM.shtml">How They Work</a></li>
+				<li class="hidden-xs"><a href="/feg/fcv_benefits.shtml">Benefits and Challenges</a></li>
+				<li class="hidden-xs"><a href="/feg/fcv_whatsnew.jsp">Videos </a></li>
+				<li class="hidden-xs"><a href="/feg/fcv_links.shtml">Fuel Cell Links</a></li>
+			  </ul>
+			</li>
+		</ul>
+	  </li>
+	  <!-- end of Advanced Vehicles and Fuels dropdown -->
+	  
+	  <!-- About EPA Ratings dropdown -->
+	  <li class="dropdown">
+		<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">About EPA Ratings</a>
+		<ul id="epa-ratings" class="dropdown-menu row">
+		
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/label/">Window Sticker</a></li>
+				<li class="hidden-xs"><a href="/feg/label/">About the Label</a></li>
+				<li class="hidden-xs"><span style="font-size: 90%">Sample Labels:</span>
+					<ul style="margin-left: 2px; padding: 0 0 0 20px; font-size: 90%">
+						<li><a href="/feg/label/learn-more-gasoline-label.shtml">Gasoline Vehicles</a></li>
+						<li><a href="/feg/label/learn-more-PHEV-label.shtml">Plug-in Hybrid Vehicles</a></li>
+						<li><a href="/feg/label/learn-more-electric-label.shtml">Electric Vehicles</a></li>
+					</ul>
+				</li>
+				<li class="hidden-xs"><a href="/feg/label/video.shtml">QR Codes</a></li>      
+			  </ul>
+			</li>
+			
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/ratings.shtml">New vs. Old Ratings</a></li>
+				<li class="hidden-xs"><a href="/feg/ratings.shtml">2017 Ratings Changes</a></li>
+				<li class="hidden-xs"><a href="/feg/comparempg.shtml">Compare Old and New MPG</a></li>
+			
+				<li class="header"><a href="/feg/how_tested.shtml">Fuel Economy Tests</a></li>
+				<li class="hidden-xs"><a href="/feg/how_tested.shtml">How Vehicles Are Tested</a></li>
+				<li class="hidden-xs"><a href="/feg/which_tested.shtml">Which Vehicles Are Tested</a></li>
+				<li class="hidden-xs"><a href="/feg/fe_test_schedules.shtml">Detailed Test Information</a></li>
+			  </ul>
+			</li>
+			
+			<li class="col-sm-4">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/why_differ.shtml">Your Mileage Will Vary</a></li>
+				<li class="hidden-xs"><a href="/feg/why_differ.shtml">Your Mileage Will Vary</a></li>
+				<li class="hidden-xs"><a href="/feg/factors.shtml">Factors That Affect MPG</a></li>
+				<li class="hidden-xs"><a href="/feg/myths.shtml">Myths and Misconceptions</a></li>
+			  </ul>
+			</li>
+			
+		</ul>
+	  </li>
+	  <!-- end of About EPA Ratings dropdown -->
+
+	  <!-- My MPG Dropdown -->
+	  <li class="dropdown">
+		<a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown">More<span class="sr-only"> Topics</span></a>
+		<ul id="more" class="dropdown-menu row">
+		
+			<li class="col-sm-6">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/atv.shtml">Where the Energy Goes</a></li>
+				<li class="hidden-xs"><a href="/feg/atv.shtml">Gasoline Vehicles</a></li>
+				<li class="hidden-xs"><a href="/feg/atv-hev.shtml">Hybrids</a></li>
+				<li class="hidden-xs"><a href="/feg/atv-ev.shtml">Electric Cars</a></li>
+				<li class="header"><a href="/feg/tech_adv.shtml">Fuel-Saving Technologies</a></li>
+				<li class="hidden-xs"><a href="/feg/tech_engine_more.shtml">Engine Technologies</a></li>
+				<li class="hidden-xs"><a href="/feg/tech_transmission.shtml">Transmission Technologies</a></li>
+				<li class="hidden-xs"><a href="/feg/tech-other.shtml">Other Technologies</a></li>
+			  </ul>
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/extremeMPG.jsp">Extreme MPG</a></li>
+			  </ul>
+			</li>
+			
+			<li class="col-sm-6">
+			  <ul class="submenu">
+				<li class="header"><a href="/feg/octane.shtml">Selecting the Right Octane Fuel</a></li>
+				<li class="header hidden-xs">
+					<div class="img-caption" style="width: 17.5em">
+						<a href="/feg/octane.shtml">
+							<img class="img-responsive" src="/feg/images/octane.jpg" alt="">
+							<div class="mmcap">Answers to frequently asked questions about octane.</div>
+						</a>
+					</div>
+				</li>
+			  </ul>
+			</li>
+			
+		</ul>
+	  </li>
+	  <!-- end of My MPG dropdown -->
+	  
+	  <!-- start of Search dropdown -->
+	  <li id="searchDdParent" class="dropdown">
+		<a id="search-link-menu" href="javascript: void(0);" class="dropdown-toggle" data-toggle="dropdown" style="padding-top: 8px; padding-bottom: 8px"><div id="search-icon" class="search-icon-topnav hidden-xs" style="margin-left: 5px; margin-right: 5px"></div><div class="visible-xs">Search</div></a>
+		<ul id="search" class="dropdown-menu row">
+			<li class="col-sm-12" style="padding-top: 1em">
+				<form class="form-inline" method="get" action="/feg/search.shtml">
+					<div class="form-group">
+						<label for="search-text" class="sr-only">Enter vehicle or phrase.</label>
+						<input id="search-text" name="words" class="form-control input-sm" type="text" placeholder="Enter vehicle or phrase">
+					</div>
+					<button id="go-search" class="btn btn-primary btn-sm" type="submit">Go</button>
+				</form>
+			</li>
+		</ul>
+	  
+	</ul><!-- end of .nav .navbar-nav -->
+
+  </div><!-- /.navbar-collapse -->
+ </div>
+ </div><!-- End of #main-nav -->
+</nav>
+
+	<div class="container" id="main-container">
+		<div class="row">
+
+			<div class="col-sm-12" id="main-content">
+
+				<a id="content"></a><a id="top"></a>
+
+				<h1>Power Search</h1>
+
+				<!-- #try-again-modal -->
+				<div class="modal fade" id="try-again-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="myModalLabel">Sorry!</h4>
+							</div>
+							<div class="modal-body">
+								<p>No vehicles matched your search criteia.</p>
+								<p>Please try again.</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div><!-- end of .modal #try-again-modal -->
+
+				<form method="get" name="powerSearch" id="mypowerSearch" action="PowerSearch.do">
+					<input type="hidden" name="action" value="PowerSearch">
+					<p>Expand any feature by selecting its title. Choose as many or as few features as you like.</p>
+
+					<div class="row">
+						<div class="col-sm-9">
+
+							<!-- ACCORDIONS -->
+							<div class="panel-group" id="accordion">
+
+								<!-- MODEL YEAR -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-modelyear">
+												Model Year
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-modelyear" class="panel-collapse collapse in">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-xs-6">
+													<label for="year1">From:</label>
+													<select name="year1" id="year1" onChange="setYears('updt');">
+														<option value="2026">2026</option>
+														<option value="2025">2025</option>
+														<option value="2024"selected>2024</option>
+														<option value="2023">2023</option>
+														<option value="2022">2022</option>
+														<option value="2021">2021</option>
+														<option value="2020">2020</option>
+														<option value="2019">2019</option>
+														<option value="2018">2018</option>
+														<option value="2017">2017</option>
+														<option value="2016">2016</option>
+														<option value="2015">2015</option>
+														<option value="2014">2014</option>
+														<option value="2013">2013</option>
+														<option value="2012">2012</option>
+														<option value="2011">2011</option>
+														<option value="2010">2010</option>
+														<option value="2009">2009</option>
+														<option value="2008">2008</option>
+														<option value="2007">2007</option>
+														<option value="2006">2006</option>
+														<option value="2005">2005</option>
+														<option value="2004">2004</option>
+														<option value="2003">2003</option>
+														<option value="2002">2002</option>
+														<option value="2001">2001</option>
+														<option value="2000">2000</option>
+														<option value="1999">1999</option>
+														<option value="1998">1998</option>
+														<option value="1997">1997</option>
+														<option value="1996">1996</option>
+														<option value="1995">1995</option>
+														<option value="1994">1994</option>
+														<option value="1993">1993</option>
+														<option value="1992">1992</option>
+														<option value="1991">1991</option>
+														<option value="1990">1990</option>
+														<option value="1989">1989</option>
+														<option value="1988">1988</option>
+														<option value="1987">1987</option>
+														<option value="1986">1986</option>
+														<option value="1985">1985</option>
+														<option value="1984">1984</option>
+													</select>
+												</div><!-- end of .col-xs-6 -->
+												<div class="col-xs-6">
+													<label for="year2">To:</label>
+													<select name="year2" id="year2" onChange="setYears('updt');">
+														<option value="2026">2026</option>
+														<option value="2025" selected>2025</option>
+														<option value="2024">2024</option>
+														<option value="2023">2023</option>
+														<option value="2022">2022</option>
+														<option value="2021">2021</option>
+														<option value="2020">2020</option>
+														<option value="2019">2019</option>
+														<option value="2018">2018</option>
+														<option value="2017">2017</option>
+														<option value="2016">2016</option>
+														<option value="2015">2015</option>
+														<option value="2014">2014</option>
+														<option value="2013">2013</option>
+														<option value="2012">2012</option>
+														<option value="2011">2011</option>
+														<option value="2010">2010</option>
+														<option value="2009">2009</option>
+														<option value="2008">2008</option>
+														<option value="2007">2007</option>
+														<option value="2006">2006</option>
+														<option value="2005">2005</option>
+														<option value="2004">2004</option>
+														<option value="2003">2003</option>
+														<option value="2002">2002</option>
+														<option value="2001">2001</option>
+														<option value="2000">2000</option>
+														<option value="1999">1999</option>
+														<option value="1998">1998</option>
+														<option value="1997">1997</option>
+														<option value="1996">1996</option>
+														<option value="1995">1995</option>
+														<option value="1994">1994</option>
+														<option value="1993">1993</option>
+														<option value="1992">1992</option>
+														<option value="1991">1991</option>
+														<option value="1990">1990</option>
+														<option value="1989">1989</option>
+														<option value="1988">1988</option>
+														<option value="1987">1987</option>
+														<option value="1986">1986</option>
+														<option value="1985">1985</option>
+														<option value="1984">1984</option>
+													</select>
+												</div><!-- end of .col-xs-6 -->
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-modelyear -->
+								</div><!-- end of .panel -->
+								<!-- MAKE -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a id="make-anchor" data-toggle="collapse" data-parent="#accordion" href="#collapse-make">
+												Make
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-make" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAcura' name='cbmkAcura' value='Acura' onClick="setMake('updt');"> Acura</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAlfa_Romeo' name='cbmkAlfa_Romeo' value='Alfa Romeo' onClick="setMake('updt');"> Alfa Romeo</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAston_Martin' name='cbmkAston_Martin' value='Aston Martin' onClick="setMake('updt');"> Aston Martin</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAudi' name='cbmkAudi' value='Audi' onClick="setMake('updt');"> Audi</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBentley' name='cbmkBentley' value='Bentley' onClick="setMake('updt');"> Bentley</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBMW' name='cbmkBMW' value='BMW' onClick="setMake('updt');"> BMW</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBugatti' name='cbmkBugatti' value='Bugatti' onClick="setMake('updt');"> Bugatti</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBuick' name='cbmkBuick' value='Buick' onClick="setMake('updt');"> Buick</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBYD' name='cbmkBYD' value='BYD' onClick="setMake('updt');"> BYD</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkCadillac' name='cbmkCadillac' value='Cadillac' onClick="setMake('updt');"> Cadillac</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkChevrolet' name='cbmkChevrolet' value='Chevrolet' onClick="setMake('updt');"> Chevrolet</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkChrysler' name='cbmkChrysler' value='Chrysler' onClick="setMake('updt');"> Chrysler</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkDodge' name='cbmkDodge' value='Dodge' onClick="setMake('updt');"> Dodge</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkFerrari' name='cbmkFerrari' value='Ferrari' onClick="setMake('updt');"> Ferrari</label></div>
+												</div>
+												
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkFiat' name='cbmkFiat' value='Fiat' onClick="setMake('updt');"> Fiat</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkFisker' name='cbmkFisker' value='Fisker' onClick="setMake('updt');"> Fisker</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkFord' name='cbmkFord' value='Ford' onClick="setMake('updt');"> Ford</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGenesis' name='cbmkGenesis' value='Genesis' onClick="setMake('updt');"> Genesis</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGMC' name='cbmkGMC' value='GMC' onClick="setMake('updt');"> GMC</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkHonda' name='cbmkHonda' value='Honda' onClick="setMake('updt');"> Honda</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkHyundai' name='cbmkHyundai' value='Hyundai' onClick="setMake('updt');"> Hyundai</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkInfiniti' name='cbmkInfiniti' value='Infiniti' onClick="setMake('updt');"> Infiniti</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkINEOS_Automotive' name='cbmkINEOS_Automotive' value='INEOS Automotive' onClick="setMake('updt');"> INEOS Automotive</label></div>
+
+													<div class="checkbox"><label><input type="checkbox" id='cbmkJaguar' name='cbmkJaguar' value='Jaguar' onClick="setMake('updt');"> Jaguar</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkJeep' name='cbmkJeep' value='Jeep' onClick="setMake('updt');"> Jeep</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkKandi' name='cbmkKandi' value='Kandi' onClick="setMake('updt');"> Kandi</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkKarma' name='cbmkKarma' value='Karma' onClick="setMake('updt');"> Karma</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkKia' name='cbmkKia' value='Kia' onClick="setMake('updt');"> Kia</label></div>
+												</div>
+
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLamborghini' name='cbmkLamborghini' value='Lamborghini' onClick="setMake('updt');"> Lamborghini</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLand_Rover' name='cbmkLand_Rover' value='Land Rover' onClick="setMake('updt');"> Land Rover</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLexus' name='cbmkLexus' value='Lexus' onClick="setMake('updt');"> Lexus</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLincoln' name='cbmkLincoln' value='Lincoln' onClick="setMake('updt');"> Lincoln</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLotus' name='cbmkLotus' value='Lotus' onClick="setMake('updt');"> Lotus</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLordstown' name='cbmkLordstown' value='Lordstown' onClick="setMake('updt');"> Lordstown</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLucid' name='cbmkLucid' value='Lucid' onClick="setMake('updt');"> Lucid</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMaserati' name='cbmkMaserati' value='Maserati' onClick="setMake('updt');"> Maserati</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMazda' name='cbmkMazda' value='Mazda' onClick="setMake('updt');"> Mazda</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMcLaren_Automotive' name='cbmkMcLaren_Automotive' value='McLaren Automotive' onClick="setMake('updt');"> McLaren Automotive</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMercedes-Benz' name='cbmkMercedes-Benz' value='Mercedes-Benz' onClick="setMake('updt');"> Mercedes-Benz</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMINI' name='cbmkMINI' value='MINI' onClick="setMake('updt');"> MINI</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMitsubishi' name='cbmkMitsubishi' value='Mitsubishi' onClick="setMake('updt');"> Mitsubishi</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkNissan' name='cbmkNissan' value='Nissan' onClick="setMake('updt');"> Nissan</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPolestar' name='cbmkPolestar' value='Polestar' onClick="setMake('updt');"> Polestar</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPorsche' name='cbmkPorsche' value='Porsche' onClick="setMake('updt');"> Porsche</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRam' name='cbmkRam' value='Ram' onClick="setMake('updt');"> Ram</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRivian' name='cbmkRivian' value='Rivian' onClick="setMake('updt');"> Rivian</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRolls-Royce' name='cbmkRolls-Royce' value='Rolls-Royce' onClick="setMake('updt');"> Rolls-Royce</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRoush_Performance' name='cbmkRoush_Performance' value='Roush Performance' onClick="setMake('updt');"> Roush Performance</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRUF_Automobile' name='cbmkRUF_Automobile' value='RUF Automobile' onClick="setMake('updt');"> RUF Automobile</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSubaru' name='cbmkSubaru' value='Subaru' onClick="setMake('updt');"> Subaru</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkTesla' name='cbmkTesla' value='Tesla' onClick="setMake('updt');"> Tesla</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkToyota' name='cbmkToyota' value='Toyota' onClick="setMake('updt');"> Toyota</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVinfast' name='cbmkVinfast' value='Vinfast' onClick="setMake('updt');"> Vinfast</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVolkswagen' name='cbmkVolkswagen' value='Volkswagen' onClick="setMake('updt');"> Volkswagen</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVolvo' name='cbmkVolvo' value='Volvo' onClick="setMake('updt');"> Volvo</label></div>
+												</div>
+
+											</div><!-- end of .row -->
+											<div class="row">
+												<div class="col-sm-12" style="padding-top: 5px">
+													<a class="more-less" href="javascript:void(0)" data-toggle="collapse" data-target="#more-makes"><span id="plus-minus" class="glyphicon glyphicon-plus"></span> other makes</a>
+												</div><!-- end of .col-sm-12 -->
+											</div><!-- end of .row -->
+											<div id="more-makes" class="row collapse">
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAM_General' name='cbmkAM_General' value='AM General' onClick="setMake('updt');"> AM General</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAmerican_Motors_Corporation' name='cbmkAmerican_Motors_Corporation' value='American Motors Corporation' onClick="setMake('updt');"> American Motors Corporation</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkASC_Incorporated' name='cbmkASC_Incorporated' value='ASC Incorporated' onClick="setMake('updt');"> ASC Incorporated</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAurora_Cars_Ltd' name='cbmkAurora_Cars_Ltd' value='Aurora Cars Ltd' onClick="setMake('updt');"> Aurora Cars Ltd</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAutokraft_Limited' name='cbmkAutokraft_Limited' value='Autokraft Limited' onClick="setMake('updt');"> Autokraft Limited</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAvanti_Motor_Corporation' name='cbmkAvanti_Motor_Corporation' value='Avanti Motor Corporation' onClick="setMake('updt');"> Avanti Motor Corporation</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkAzure_Dynamics' name='cbmkAzure_Dynamics' value='Azure Dynamics' onClick="setMake('updt');"> Azure Dynamics</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBertone' name='cbmkBertone' value='Bertone' onClick="setMake('updt');"> Bertone</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBill_Dovell_Motor_Car_Company' name='cbmkBill_Dovell_Motor_Car_Company' value='Bill Dovell Motor Car Company' onClick="setMake('updt');"> Bill Dovell Motor Car Company</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBitter_Gmbh_and_Co._Kg' name='cbmkBitter_Gmbh_and_Co._Kg' value='Bitter Gmbh and Co. Kg' onClick="setMake('updt');"> Bitter Gmbh and Co. Kg</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkBMW_Alpina' name='cbmkBMW_Alpina' value='BMW Alpina' onClick="setMake('updt');"> BMW Alpina</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkCCC_Engineering' name='cbmkCCC_Engineering' value='CCC Engineering' onClick="setMake('updt');"> CCC Engineering</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkCODA_Automotive' name='cbmkCODA_Automotive' value='CODA Automotive' onClick="setMake('updt');"> CODA Automotive</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkConsulier_Industries_Inc' name='cbmkConsulier_Industries_Inc' value='Consulier Industries Inc' onClick="setMake('updt');"> Consulier Industries Inc</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkCX_Automotive' name='cbmkCX_Automotive' value='CX Automotive' onClick="setMake('updt');"> CX Automotive</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkDabryan_Coach_Builders_Inc' name='cbmkDabryan_Coach_Builders_Inc' value='Dabryan Coach Builders Inc' onClick="setMake('updt');"> Dabryan Coach Builders Inc</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkDacia' name='cbmkDacia' value='Dacia' onClick="setMake('updt');"> Dacia</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkDaewoo' name='cbmkDaewoo' value='Daewoo' onClick="setMake('updt');"> Daewoo</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkDaihatsu' name='cbmkDaihatsu' value='Daihatsu' onClick="setMake('updt');"> Daihatsu</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkE._P._Dutton,_Inc.' name='cbmkE._P._Dutton,_Inc.' value='E. P. Dutton, Inc.' onClick="setMake('updt');"> E. P. Dutton, Inc.</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkEagle' name='cbmkEagle' value='Eagle' onClick="setMake('updt');"> Eagle</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkEnvironmental_Rsch_and_Devp_Corp' name='cbmkEnvironmental_Rsch_and_Devp_Corp' value='Environmental Rsch and Devp Corp' onClick="setMake('updt');"> Environmental Rsch and Devp Corp</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkEvans_Automobiles' name='cbmkEvans_Automobiles' value='Evans Automobiles' onClick="setMake('updt');"> Evans Automobiles</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkExcalibur_Autos' name='cbmkExcalibur_Autos' value='Excalibur Autos' onClick="setMake('updt');"> Excalibur Autos</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkFederal_Coach' name='cbmkFederal_Coach' value='Federal Coach' onClick="setMake('updt');"> Federal Coach</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGeneral_Motors' name='cbmkGeneral_Motors' value='General Motors' onClick="setMake('updt');"> General Motors</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGeo' name='cbmkGeo' value='Geo' onClick="setMake('updt');"> Geo</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGoldacre' name='cbmkGoldacre' value='Goldacre' onClick="setMake('updt');"> Goldacre</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGrumman_Allied_Industries' name='cbmkGrumman_Allied_Industries' value='Grumman Allied Industries' onClick="setMake('updt');"> Grumman Allied Industries</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkGrumman_Olson' name='cbmkGrumman_Olson' value='Grumman Olson' onClick="setMake('updt');"> Grumman Olson</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkHummer' name='cbmkHummer' value='Hummer' onClick="setMake('updt');"> Hummer</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkImport_Foreign_Auto_Sales_Inc' name='cbmkImport_Foreign_Auto_Sales_Inc' value='Import Foreign Auto Sales Inc' onClick="setMake('updt');"> Import Foreign Auto Sales Inc</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkImport_Trade_Services' name='cbmkImport_Trade_Services' value='Import Trade Services' onClick="setMake('updt');"> Import Trade Services</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkIsis_Imports_Ltd' name='cbmkIsis_Imports_Ltd' value='Isis Imports Ltd' onClick="setMake('updt');"> Isis Imports Ltd</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkIsuzu' name='cbmkIsuzu' value='Isuzu' onClick="setMake('updt');"> Isuzu</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkJ.K._Motors' name='cbmkJ.K._Motors' value='J.K. Motors' onClick="setMake('updt');"> J.K. Motors</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkJBA_Motorcars,_Inc.' name='cbmkJBA_Motorcars,_Inc.' value='JBA Motorcars, Inc.' onClick="setMake('updt');"> JBA Motorcars, Inc.</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkKenyon_Corporation_Of_America' name='cbmkKenyon_Corporation_Of_America' value='Kenyon Corporation Of America' onClick="setMake('updt');"> Kenyon Corporation Of America</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkKoenigsegg' name='cbmkKoenigsegg' value='Koenigsegg' onClick="setMake('updt');"> Koenigsegg</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLaforza_Automobile_Inc' name='cbmkLaforza_Automobile_Inc' value='Laforza Automobile Inc' onClick="setMake('updt');"> Laforza Automobile Inc</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLambda_Control_Systems' name='cbmkLambda_Control_Systems' value='Lambda Control Systems' onClick="setMake('updt');"> Lambda Control Systems</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLondon_Coach_Co_Inc' name='cbmkLondon_Coach_Co_Inc' value='London Coach Co Inc' onClick="setMake('updt');"> London Coach Co Inc</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkLondon_Taxi' name='cbmkLondon_Taxi' value='London Taxi' onClick="setMake('updt');"> London Taxi</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMahindra' name='cbmkMahindra' value='Mahindra' onClick="setMake('updt');"> Mahindra</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMaybach' name='cbmkMaybach' value='Maybach' onClick="setMake('updt');"> Maybach</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMcevoy_Motors' name='cbmkMcevoy_Motors' value='Mcevoy Motors' onClick="setMake('updt');"> Mcevoy Motors</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMercury' name='cbmkMercury' value='Mercury' onClick="setMake('updt');"> Mercury</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMerkur' name='cbmkMerkur' value='Merkur' onClick="setMake('updt');"> Merkur</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMobility_Ventures_LLC' name='cbmkMobility_Ventures_LLC' value='Mobility Ventures LLC' onClick="setMake('updt');"> Mobility Ventures</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkMorgan' name='cbmkMorgan' value='Morgan' onClick="setMake('updt');"> Morgan</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkOldsmobile' name='cbmkOldsmobile' value='Oldsmobile' onClick="setMake('updt');"> Oldsmobile</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPagani' name='cbmkPagani' value='Pagani' onClick="setMake('updt');"> Pagani</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPanos' name='cbmkPanos' value='Panos' onClick="setMake('updt');"> Panos</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPanoz_Auto-Development' name='cbmkPanoz_Auto-Development' value='Panoz Auto-Development' onClick="setMake('updt');"> Panoz Auto-Development</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPanther_Car_Company_Limited' name='cbmkPanther_Car_Company_Limited' value='Panther Car Company Limited' onClick="setMake('updt');"> Panther Car Company Limited</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPAS_Inc_-_GMC' name='cbmkPAS_Inc_-_GMC' value='PAS Inc - GMC' onClick="setMake('updt');"> PAS Inc - GMC</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPAS,_Inc' name='cbmkPAS,_Inc' value='PAS, Inc' onClick="setMake('updt');"> PAS, Inc</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPeugeot' name='cbmkPeugeot' value='Peugeot' onClick="setMake('updt');"> Peugeot</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPininfarina' name='cbmkPininfarina' value='Pininfarina' onClick="setMake('updt');"> Pininfarina</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPlymouth' name='cbmkPlymouth' value='Plymouth' onClick="setMake('updt');"> Plymouth</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkPontiac' name='cbmkPontiac' value='Pontiac' onClick="setMake('updt');"> Pontiac</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkQuantum_Technologies' name='cbmkQuantum_Technologies' value='Quantum Technologies' onClick="setMake('updt');"> Quantum Technologies</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkQvale' name='cbmkQvale' value='Qvale' onClick="setMake('updt');"> Qvale</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRed_Shift_Ltd.' name='cbmkRed_Shift_Ltd.' value='Red Shift Ltd.' onClick="setMake('updt');"> Red Shift Ltd.</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRenault' name='cbmkRenault' value='Renault' onClick="setMake('updt');"> Renault</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkRuf_Automobile_Gmbh' name='cbmkRuf_Automobile_Gmbh' value='Ruf Automobile Gmbh' onClick="setMake('updt');"> Ruf Automobile Gmbh</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkS_and_S_Coach_Company__E.p._Dutton' name='cbmkS_and_S_Coach_Company__E.p._Dutton' value='S and S Coach Company  E.p. Dutton' onClick="setMake('updt');"> S and S Coach Company  E.p. Dutton</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSaab' name='cbmkSaab' value='Saab' onClick="setMake('updt');"> Saab</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSaleen' name='cbmkSaleen' value='Saleen' onClick="setMake('updt');"> Saleen</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSaleen_Performance' name='cbmkSaleen_Performance' value='Saleen Performance' onClick="setMake('updt');"> Saleen Performance</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSaturn' name='cbmkSaturn' value='Saturn' onClick="setMake('updt');"> Saturn</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkScion' name='cbmkScion' value='Scion' onClick="setMake('updt');"> Scion</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkShelby' name='cbmkShelby' value='Shelby' onClick="setMake('updt');"> Shelby</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmksmart' name='cbmksmart' value='smart' onClick="setMake('updt');"> smart</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSpyker' name='cbmkSpyker' value='Spyker' onClick="setMake('updt');"> Spyker</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSRT' name='cbmkSRT' value='SRT' onClick="setMake('updt');"> SRT</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSTI' name='cbmkSTI' value='STI' onClick="setMake('updt');"> STI</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSterling' name='cbmkSterling' value='Sterling' onClick="setMake('updt');"> Sterling</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSuzuki' name='cbmkSuzuki' value='Suzuki' onClick="setMake('updt');"> Suzuki</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkSuperior_Coaches_Div_E.p._Dutton' name='cbmkSuperior_Coaches_Div_E.p._Dutton' value='Superior Coaches Div E.p. Dutton' onClick="setMake('updt');"> Superior Coaches Div E.p. Dutton</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkTecstar,_LP' name='cbmkTecstar,_LP' value='Tecstar, LP' onClick="setMake('updt');"> Tecstar, LP</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkTexas_Coach_Company' name='cbmkTexas_Coach_Company' value='Texas Coach Company' onClick="setMake('updt');"> Texas Coach Company</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkTVR_Engineering_Ltd' name='cbmkTVR_Engineering_Ltd' value='TVR Engineering Ltd' onClick="setMake('updt');"> TVR Engineering Ltd</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVector' name='cbmkVector' value='Vector' onClick="setMake('updt');"> Vector</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVixen_Motor_Company' name='cbmkVixen_Motor_Company' value='Vixen Motor Company' onClick="setMake('updt');"> Vixen Motor Company</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVolga_Associated_Automobile' name='cbmkVolga_Associated_Automobile' value='Volga Associated Automobile' onClick="setMake('updt');"> Volga Associated Automobile</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkVPG' name='cbmkVPG' value='VPG' onClick="setMake('updt');"> VPG</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkWallace_Environmental' name='cbmkWallace_Environmental' value='Wallace Environmental' onClick="setMake('updt');"> Wallace Environmental</label></div>
+													<div class="checkbox"><label><input type="checkbox" id='cbmkYugo' name='cbmkYugo' value='Yugo' onClick="setMake('updt');"> Yugo</label></div>
+												</div>
+
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-make -->
+								</div><!-- end of .panel -->
+
+								<!-- MARKET CLASS -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-market">
+												Market Class
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-market" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id="cbmcSmall_Cars" name="cbmcsmallCars" value="Small Cars" onClick="setMarClass('updt');"> Small Cars</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcFamily_Sedans" name="cbmcfamilySedans" value="Family Sedans" onClick="setMarClass('updt');"> Family Sedans</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcUpscale_Sedans" name="cbmcupscaleSedans" value="Upscale Sedans" onClick="setMarClass('updt');"> Upscale Sedans</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcLuxury_Sedans" name="cbmcluxurySedans" value="Luxury Sedans" onClick="setMarClass('updt');"> Luxury Sedans</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id="cbmcLarge_Sedans" name="cbmclargeSedans" value="Large Sedans" onClick="setMarClass('updt');"> Large Sedans</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcHatchbacks" name="cbmchatchbacks" value="Hatchbacks" onClick="setMarClass('updt');"> Hatchbacks</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcCoupes" name="cbmcCoupes" value="Coupes" onClick="setMarClass('updt');"> Coupes</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcConvertibles" name="cbmcconvertibles" value="Convertibles" onClick="setMarClass('updt');"> Convertibles</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id="cbmcSports/Sporty_Cars" name="cbmcSports_Sporty_Cars" value="Sports/Sporty Cars" onClick="setMarClass('updt');"> Sports/Sporty Cars</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcStation_Wagons" name="cbmcstationWagons" value="Station Wagons" onClick="setMarClass('updt');"> Station Wagons</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcPickup_Trucks" name="cbmcpickupTrucks" value="Pickup Trucks" onClick="setMarClass('updt');"> Pickup Trucks</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcSport_Utility_Vehicles" name="cbmcsportUtilityVehicles" value="Sport Utility Vehicles" onClick="setMarClass('updt');"> SUVs</label></div>
+												</div>
+												<div class="col-sm-3">
+													<div class="checkbox"><label><input type="checkbox" id="cbmcMinivans" name="cbmcminivans" value="Minivans" onClick="setMarClass('updt');"> Minivans</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbmcVans" name="cbmcvans" value="Vans" onClick="setMarClass('updt');"> Vans</label></div>
+												</div>
+											</div><!-- end of .row -->
+											<div class="row">
+												<div class="col-sm-12">
+													<p class="text-danger">Market class is unavailable for models prior to 1994.</p>
+												</div>
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-market -->
+								</div><!-- end of .panel -->
+
+								<!-- MSRP -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-msrp">
+												MSRP
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-msrp" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-xs-6">
+													<label for="minmsrpsel" class="msrpLabel">Minimum:</label>
+													<select name="minmsrpsel" id="minmsrpsel" class="text" onChange="setMsrp('updt')">
+														<option value="0" selected>Select&hellip;</option>
+														<option value="9000">$9,000</option>
+														<option value="10000">$10,000</option>
+														<option value="11000">$11,000</option>
+														<option value="12000">$12,000</option>
+														<option value="13000">$13,000</option>
+														<option value="14000">$14,000</option>
+														<option value="15000">$15,000</option>
+														<option value="16000">$16,000</option>
+														<option value="17000">$17,000</option>
+														<option value="18000">$18,000</option>
+														<option value="19000">$19,000</option>
+														<option value="20000">$20,000</option>
+														<option value="25000">$25,000</option>
+														<option value="30000">$30,000</option>
+														<option value="35000">$35,000</option>
+														<option value="40000">$40,000</option>
+														<option value="45000">$45,000</option>
+														<option value="50000">$50,000</option>
+													</select>
+												</div><!-- end of .col-xs-6 -->
+												<div class="col-xs-6">
+													<label for="maxmsrpsel" class="msrpLabel" style="margin-left: 1em;">Maximum:</label>
+													<select name="maxmsrpsel" id="maxmsrpsel" class="text" onChange="setMsrp('updt')">
+														<option value="0" selected>Select&hellip;</option>
+														<option value="10000">$10,000</option>
+														<option value="11000">$11,000</option>
+														<option value="12000">$12,000</option>
+														<option value="13000">$13,000</option>
+														<option value="14000">$14,000</option>
+														<option value="15000">$15,000</option>
+														<option value="16000">$16,000</option>
+														<option value="17000">$17,000</option>
+														<option value="18000">$18,000</option>
+														<option value="19000">$19,000</option>
+														<option value="20000">$20,000</option>
+														<option value="25000">$25,000</option>
+														<option value="30000">$30,000</option>
+														<option value="35000">$35,000</option>
+														<option value="40000">$40,000</option>
+														<option value="45000">$45,000</option>
+														<option value="50000">$50,000</option>
+														<option value="55000">$55,000</option>
+														<option value="60000">$60,000</option>
+														<option value="65000">$65,000</option>
+														<option value="70000">$70,000</option>
+														<option value="75000">$75,000</option>
+														<option value="80000">$80,000</option>
+														<option value="85000">$85,000</option>
+														<option value="90000">$90,000</option>
+														<option value="95000">$95,000</option>
+														<option value="100000">$100,000</option>
+													</select>
+												</div>
+											</div><!-- end of .row -->
+											<div class="row">
+												<p class="col-xs-12" style="margin-top: 10px"><small><a class="pop-over" data-placement="right" data-content="Manufacturer's Suggested Retail Price">MSRP</a> is only available for model year 2010 and newer vehicles.</small></p>
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-msrp -->
+								</div><!-- end of .panel -->
+
+								<!-- FUEL ECONOMY -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-mpg">
+												Fuel Economy
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-mpg" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<p class="col-xs-12" style="margin-bottom: 10px">At least&hellip;</p>
+											</div>
+											<div class="row">
+
+												<div class="col-sm-3">
+													<div class="form-group">
+													<label for="city" style="display: block">City: </label>
+														<select name="city" id="city" onChange="setMpg('menu');" style="width: 6em;">
+															<option value="0" selected>Select&hellip;</option>
+															<option value="45">45</option>
+															<option value="40">40</option>
+															<option value="35">35</option>
+															<option value="30">30</option>
+															<option value="25">25</option>
+															<option value="20">20</option>
+															<option value="15">15</option>
+															<option value="10">10</option>
+														</select> mpg
+													</div>
+												</div><!-- end of col-sm-3 -->
+
+												<div class="col-sm-3">
+													<div class="form-group">
+														<label for="highway" style="display: block">Highway: </label>
+														<select name="highway" id="highway" onChange="setMpg('menu');" style="width: 6em;">
+															<option value="0" selected>Select&hellip; </option>
+															<option value="45">45</option>
+															<option value="40">40</option>
+															<option value="35">35</option>
+															<option value="30">30</option>
+															<option value="25">25</option>
+															<option value="20">20</option>
+															<option value="15">15</option>
+															<option value="10">10</option>
+														</select>
+														mpg
+													</div>
+												</div><!-- end of col-sm-3 -->
+
+												<div class="col-sm-3">
+													<div class="form-group">
+														<label for="combined" style="display: block">Combined: </label>
+														<select name="combined" id="combined" onChange="setMpg('menu');" style="width: 6em;">
+															<option value="0" selected>Select&hellip; </option>
+															<option value="45">45</option>
+															<option value="40">40</option>
+															<option value="35">35</option>
+															<option value="30">30</option>
+															<option value="25">25</option>
+															<option value="20">20</option>
+															<option value="15">15</option>
+															<option value="10">10</option>
+														</select>
+														mpg
+													</div>
+												</div><!-- end of col-sm-3 -->
+
+												<div class="col-sm-3">&nbsp;
+												</div><!-- end of col-sm-3 -->
+											</div><!-- end of .row -->
+
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-mpg -->
+								</div><!-- end of .panel -->
+
+								<!-- TRANSMISSION -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-trans">
+												Transmission
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-trans" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-sm-3 col-xs-6">
+													<div class="checkbox"><label><input type="checkbox" name="cbttautomatic" id="cbttAutomatic" value="Automatic" onClick="setTrany('updt');"> Automatic</label></div>
+												</div>
+												<div class="col-sm-3 col-xs-6">
+													<div class="checkbox"><label><input type="checkbox" name="cbttmanual" id="cbttManual" value="Manual" onClick="setTrany('updt');"> Manual</label></div>
+												</div>
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-trans -->
+								</div><!-- end of .panel -->
+
+								<!-- DRIVE -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-drive">
+												Drive
+											</a>
+										</h4>
+									</div>
+								<div id="collapse-drive" class="panel-collapse collapse">
+									<div class="panel-body">
+										<div class="row">
+											<div class="col-sm-3">
+												<div class="checkbox"><label><input type="checkbox" name="cbdtfwd" id="cbdtFWD" value="FWD" onClick="setDrive('updt');"> Front-Wheel</label></div>
+											</div>
+											<div class="col-sm-3">
+												<div class="checkbox"><label><input type="checkbox" name="cbdtrwd" id="cbdtRWD" value="RWD" onClick="setDrive('updt');"> Rear-Wheel</label></div>
+											</div>
+											<div class="col-sm-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbdt4wd" id="cbdt4WD" value="4WD" onClick="setDrive('updt');"> Four-Wheel/All-Wheel</label></div>
+											</div>
+										</div><!-- end of .row -->
+									</div><!-- end of .panel-body -->
+								</div><!-- end of #collapse-drive -->
+								</div><!-- end of .panel -->
+
+								<!-- ENGINE TECHNOLOGY -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-engtech">
+												Engine Technology
+											</a>
+										</h4>
+									</div>
+								<div id="collapse-engtech" class="panel-collapse collapse">
+									<div class="panel-body">
+
+										<div class="row">
+											<div class="col-sm-6 col-xs-6">
+												<div class="checkbox spacerlt"><label><input type="checkbox" name="chkSuper" id="chkSuper" value="S" >Supercharger</label></div>
+												<div class="checkbox spacerlt"><label><input type="checkbox" name="chkSuperx" id="chkSuperx" value="X" >Exclude Supercharger</label></div>
+											</div>
+											<div class="col-sm-6 col-xs-6">
+												<div class="checkbox spacerrt"><label><input type="checkbox" name="chkTurbo" id="chkTurbo" value="T">Turbocharger</label></div>
+												<div class="checkbox spacerrt"><label><input type="checkbox" name="chkTurbox" id="chkTurbox" value="X">Exclude Turbocharger</label></div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-12 col-xs-12 hidden" id="fncharge"><p class="text-danger">Note: Supercharger and Turbocharger features are available on model years 1989 and later, only.</p>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-sm-6 col-xs-6">
+												<div class="checkbox spacerrt"><label><input type="checkbox" name="chkstartstop" id="chkstartstop" value="Y">Stop-Start</label></div>
+												<div class="checkbox spacerlt"><label><input type="checkbox" name="chkstartstopx" id="chkstartstopx" value="X">Exclude Stop-Start</label></div>
+											</div>
+											<div class="col-sm-6 col-xs-6">
+												<div class="checkbox toprow"><label><input type="checkbox" name="chkcylDeact" id="chkcylDeact" value="Y" onClick="setCylDeact('updt');">Cylinder Deactivativation</label></div>
+											</div>
+											<!-- <div class="col-sm-12">* - Applicable to model years 1989 and later<br>&dagger; - Applicable to model years 2011 and later</div> -->
+										</div><!-- end of .row -->
+
+										<div class="row">
+											<div class="col-sm-12 col-xs-12 hidden" id="fnstartstop"><p class="text-danger">Note: Stop-Start and Cylinder Deactivation features are available on model years 2011 and later, only.</p>
+										</div>
+										</div>
+										<!--<div class="row">
+											<div class="col-sm-12 spacerlt">* - Applicable to model years 1989 and later<br>&dagger; - Applicable to model years 2011 and later</div>
+										</div> end of .row -->
+
+									</div><!-- end of .panel-body -->
+								</div><!-- end of #collapse-engtech -->
+								</div><!-- end of .panel -->
+
+								<!-- NUMBER OF CYLINDERS -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-cyl">
+												Cylinders
+											</a>
+										</h4>
+									</div>
+								<div id="collapse-cyl" class="panel-collapse collapse">
+									<div class="panel-body">
+<!-- 										<div class="row"> -->
+<!-- 											<div class="col-sm-3 col-xs-6"> -->
+<!-- 												<div class="checkbox"><label><input type="checkbox" name="cbcy3-5" id="cbcy3-5" value="3-5" onClick="setCylinders('updt');"> &#8804; 5</label></div> -->
+<!-- 											</div> -->
+<!-- 											<div class="col-sm-3 col-xs-6"> -->
+<!-- 												<div class="checkbox"><label><input type="checkbox" name="cbcy6" id="cbcy6" value="6" onClick="setCylinders('updt');"> 6</label></div> -->
+<!-- 											</div> -->
+<!-- 											<div class="col-sm-3 col-xs-6"> -->
+<!-- 												<div class="checkbox"><label><input type="checkbox" name="cbcy8" id="cbcy8" value="8" onClick="setCylinders('updt');"> 8</label></div> -->
+<!-- 											</div> -->
+<!-- 											<div class="col-sm-3 col-xs-6"> -->
+<!-- 												<div class="checkbox"><label><input type="checkbox" name="cbcy10-12" id="cbcy10-12" value="10-12" onClick="setCylinders('updt');"> &#8805; 10</label></div> -->
+<!-- 											</div> -->
+<!-- 										</div>end of .row -->
+
+										<div class="row">
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy2" id="cbcy2" value="2" onClick="setCylinders('updt');"> 2</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy3" id="cbcy3" value="3" onClick="setCylinders('updt');"> 3</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy4" id="cbcy4" value="4" onClick="setCylinders('updt');"> 4</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy5" id="cbcy5" value="5" onClick="setCylinders('updt');"> 5</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy6" id="cbcy6" value="6" onClick="setCylinders('updt');"> 6</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy8" id="cbcy8" value="8" onClick="setCylinders('updt');"> 8</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy10" id="cbcy10" value="10" onClick="setCylinders('updt');">10</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy12" id="cbcy12" value="12" onClick="setCylinders('updt');"> 12</label></div>
+											</div>
+											<div class="col-sm-1 col-xs-6">
+												<div class="checkbox"><label><input type="checkbox" name="cbcy16" id="cbcy16" value="16" onClick="setCylinders('updt');"> 16</label></div>
+											</div>
+										</div><!-- end of .row -->
+
+
+									</div><!-- end of .panel-body -->
+								</div><!-- end of #collapse-cyl -->
+								</div><!-- end of .panel -->
+
+								<!-- FUEL TYPE -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-fuel">
+												Fuel Type
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-fuel" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-sm-4 col-xs-12">
+													<div class="checkbox"><label><input type="checkbox" id="cbftRegular_Gasoline" name="cbftreggasoline" value="Regular Gasoline" onClick="setFuelType('updt');"> Regular Gasoline</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbftMidgrade_Gasoline" name="cbftmidgasoline" value="Midgrade Gasoline" onClick="setFuelType('updt');"> Midgrade Gasoline</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbftPremium_Gasoline" name="cbftprmgasoline" value="Premium Gasoline" onClick="setFuelType('updt');"> Premium Gasoline</label></div>
+												</div>
+												<div class="col-sm-4 col-xs-12">
+													<div class="checkbox"><label><input type="checkbox" id="cbftDiesel" name="cbftdiesel" value="Diesel" onClick="setFuelType('updt');"> Diesel</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbftElectricity" name="cbftelectricity" value="Electricity" onClick="setFuelType('updt');"> Electricity</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbftE85" name="cbfte85" value="E85" onClick="setFuelType('updt');"> E85 </label></div>
+												</div>
+												<div class="col-sm-4 col-xs-12">
+													<div class="checkbox"><label><input type="checkbox" id="cbftCng" name="cbftcng" value="CNG" onClick="setFuelType('updt');"> CNG (Natural Gas)</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbftLpg" name="cbftlpg" value="LPG" onClick="setFuelType('updt');"> LPG (Propane)</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbftHydrogen" name="cbftHydrogen" value="Hydrogen" onClick="setFuelType('updt');"> Hydrogen </label></div>
+												</div>
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-fuel -->
+								</div><!-- end of .panel -->
+
+								<!-- VEHICLE TYPE -->
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h4 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapse-vtype">
+												Vehicle Type
+											</a>
+										</h4>
+									</div>
+									<div id="collapse-vtype" class="panel-collapse collapse">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-sm-4 col-xs-12">
+													<div class="checkbox"><label><input type="checkbox" id="cbvtGasoline" name="cbvtgasoline" value="Gasoline" onClick="setVehType('updt');"> Conventional Gasoline </label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtDiesel" name="cbvtdiesel" value="Diesel" onClick="setVehType('updt');"> Diesel</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtE85" name="cbvte85" value="E85" onClick="setVehType('updt');"> Flex-Fuel (E85)</label></div>
+												</div>
+												<div class="col-sm-4 col-xs-12">
+													<div class="checkbox"><label><input type="checkbox" id="cbvtHybrid" name="cbvthybrid" value="Hybrid" onClick="setVehType('updt');"> Hybrid</label> <a class="pop-over" data-toggle="popover" data-placement="top" data-trigger="click" data-container="body" data-content="Hybrids can be fueled with gasoline only and cannot be plugged in." href="javascript:void(0);"><img src="/feg/icons/question_3d73a7_13.png" alt="Hybrid info"></a></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtPlugIn" name="cbvtplugin" value="Plug-in Hybrid" onClick="setVehType('updt');"> Plug-in Hybrid</label> <a class="pop-over" data-toggle="popover" data-placement="top" data-trigger="click" data-container="body" data-content="Plug-in hybrids can be fueled with gasoline and electricity from an outlet or charger." href="javascript:void(0);"><img src="/feg/icons/question_3d73a7_13.png" alt="Plug-in hybrid info"></a></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtElectric" name="cbvtelectric" value="Electric" onClick="setVehType('updt');"> All Electric</label> <a class="pop-over" data-toggle="popover" data-placement="top" data-trigger="click" data-container="body" data-content="All-electric cars can only run on electricity and must be re-charged." href="javascript:void(0);"><img src="/feg/icons/question_3d73a7_13.png" alt="Electric vehicle info"></a></div>
+												</div>
+												<div class="col-sm-4 col-xs-12">
+													<div class="checkbox"><label><input type="checkbox" id="cbvtDedicated_CNG" name="cbvtdedicatedCng" value="Dedicated CNG" onClick="setVehType('updt');"> Dedicated CNG</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtBi-fuel_CNG" name="cbvtbifuelCng" value="Bi-fuel CNG" onClick="setVehType('updt');"> Bifuel CNG</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtBi-fuel_LPG" name="cbvtbifuelLpg" value="Bi-fuel LPG" onClick="setVehType('updt');"> Bifuel LPG</label></div>
+													<div class="checkbox"><label><input type="checkbox" id="cbvtFCV" name="cbvtfcv" value="FCV" onClick="setVehType('updt');"> Fuel Cell </label></div>
+												</div>
+											</div><!-- end of .row -->
+										</div><!-- end of .panel-body -->
+									</div><!-- end of #collapse-vtype -->
+								</div><!-- end of .panel -->
+
+							</div><!-- end of #accordion -->
+
+						</div><!-- end of .col-sm-9 -->
+
+						<div class="col-sm-3 personalize">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									<h4 class="panel-title">
+										My Selections
+									</h4>
+								</div>
+								<div class="panel-collapse">
+									<div class="panel-body">
+										<div class="selections">
+											<ul>
+												<li><div id="ModelYear"></div></li>
+												<li><div id="VehMake"></div></li>
+												<li><div id="MarClass"></div></li>
+												<li><div id="Msrp"></div></li>
+												<li><div id="Mpg"></div></li>
+												<li><div id="TranyType"></div></li>
+												<li><div id="DriveType"></div></li>
+												<li><div id="SuperCharger"></div></li>
+												<li><div id="TurboCharger"></div></li>
+												<li><div id="StartStop"></div></li>
+												<li><div id="CylinderDeact"></div></li>
+												<li><div id="Cylinders"></div></li>
+												<li><div id="FuelType"></div></li>
+												<li><div id="VehType"></div></li>
+												<li><div id="RowLimitDisp"></div></li>
+											</ul>
+
+											<div class="go">
+												<input id="btnSearch2" name="btnSearch2" type="button" value="Search" class="btn btn-primary btn-sm"> 
+												<input id="btnClear" name="btnClear" type="button" value="Clear All" class="btn btn-default btn-sm">
+											</div>
+
+										</div><!-- end of .selections -->
+									</div><!-- end of .panel-body -->
+								</div><!-- end of .panel-collapse -->
+							</div><!-- end of .panel -->
+
+						</div><!-- end of .personalize -->
+					</div><!-- end of .row -->
+
+					<input type="hidden" name="YearSel" id="YearSel" value= "">
+					<input type="hidden" name="MakeSel" id="MakeSel" value= "">
+					<input type="hidden" name="MarClassSel" id="MarClassSel" value= "">
+					<input type="hidden" name="FuelTypeSel" id="FuelTypeSel" value= "">
+					<input type="hidden" name="VehTypeSel" id="VehTypeSel" value= "">
+					<input type="hidden" name="TranySel" id="TranySel" value= "">
+					<input type="hidden" name="DriveTypeSel" id="DriveTypeSel" value= "">
+					<input type="hidden" name="CylindersSel" id="CylindersSel" value= "">
+					<input type="hidden" name="MpgSel" id="MpgSel" value= "mpg2001.CITY08 BETWEEN 30 AND 35">
+					<input type="hidden" name="sortBy" id="sortBy" value= 'Comb'>
+					<input type="hidden" name="Units" id="Units" value= "">
+					<input type="hidden" name="url" id="url" value= "SearchServlet">
+					<input type="hidden" name="opt" id="opt" value= "new">
+					<input type="hidden" name="minmsrp" id="minmsrp" value= "0">
+					<input type="hidden" name="maxmsrp" id="maxmsrp" value= "0">
+					<input type="hidden" name="minmpg" id="minmpg" value= "0">
+					<input type="hidden" name="maxmpg" id="maxmpg" value= "0">
+					<input type="hidden" name="sCharge" id="sCharge" value= "">
+					<input type="hidden" name="tCharge" id="tCharge" value= "">
+					<input type="hidden" name="startstop" id="startstop" value= "">
+					<input type="hidden" name="cylDeact" id="cylDeact" value= "">
+					<input type="hidden" name="rowLimit" id="rowLimit" value= '50'>
+
+				</form>
+
+			</div><!-- end of #main-content -->
+
+		</div><!-- end of .row -->
+
+		<div class="row visible-xs">
+
+			<!-- Left Nav -->
+			<div class="col-sm-12" id="side-nav">
+
+				<!-- Begin AddThis social sharing toolbox -->
+					
+
+
+
+
+
+				<!-- End AddThis -->
+
+				<div class="navbox">
+					<!-- sub-nav include for Find a Car section -->
+<nav>
+	<div class="side-nav-head">Also In This Section&hellip;</div>
+	<ul class="nav nav-list">
+		<li class="divider"></li>
+		<li><a href="/feg/findacar.shtml">Find a Car</a></li>
+		<li><a href="/feg/Find.do?action=sbsSelect">Compare Side by Side</a><li>
+		<li><a href="/feg/powerSearch.jsp">Power Search</a></li>
+		<li><a href="/feg/make.shtml">Search Make</a></li>
+		<li><a href="/feg/alternatives.shtml">Hybrids, Diesels, and Alternative Fuel Cars</a></li>
+        <li><a href="/feg/SmartWay.do">Find a SmartWay Vehicle</a></li>
+		<li><a href="/feg/best-worst.shtml">Best and Worst Vehicles</a></li>
+		<li><a href="/feg/topten.jsp">Fueleconomy.gov Top Ten</a></li>
+		<li><a href="/feg/mostViewed.shtml">Today's Most Viewed Vehicles</a></li>
+		<li><a href="/feg/UsedCarLabel.jsp">Used Car Label Tool</a></li>
+	</ul>
+</nav>
+				</div>
+
+			</div><!-- end of #side-nav -->
+
+		</div><!-- end of .row -->
+
+		<div id="ft" role="contentinfo">
+	<nav>
+		<div class="visible-xs" style="display: inline">
+			  <a href="//www.fueleconomy.gov/m/">Mobile</a>
+			| <a href="//www.fueleconomy.gov/feg/esIndex.shtml">Espa&ntilde;ol</a>
+			| <a href="//www.fueleconomy.gov/feg/sitemap.shtml">Site Map</a>
+			| <a href="//www.fueleconomy.gov/feg/links.shtml"><span class="sr-only">General </span>Links</a>
+			| <a href="//www.fueleconomy.gov/feg/info.shtml">FAQ</a>
+			| <a href="//www.fueleconomy.gov/feg/contacts.shtml">Contacts</a>
+			| <a href="//www.usa.gov">USA.gov</a>
+			| <a href="//www.fueleconomy.gov/feg/ORNL-disclaimer.htm">Privacy/Security</a>
+			| <a href="mailto:fueleconomy@ornl.gov">Feedback</a>
+		</div>
+		<div class="hidden-xs" style="display: inline">
+			  <a href="//www.fueleconomy.gov/feg/contacts.shtml">Contacts</a>
+			| <a href="//www.fueleconomy.gov/feg/download.shtml">Download&nbsp;EPA's&nbsp;MPG Ratings</a> 
+			| <a href="//www.fueleconomy.gov/feg/bymake/bymanuNF.shtml">Find&nbsp;and&nbsp;Compare&nbsp;Cars</a>
+			| <a href="//www.usa.gov">USA.gov</a>
+			| <a href="//www.fueleconomy.gov/feg/dealers.shtml">Info&nbsp;for&nbsp;Auto&nbsp;Dealers</a>
+			| <a href="//www.fueleconomy.gov/feg/ORNL-disclaimer.htm">Privacy/Security</a>
+			| <a href="mailto:fueleconomy@ornl.gov">Feedback</a>
+		</div>
+	</nav>
+</div><!-- end of #ft -->
+<!--ORNL Attribution-->
+<div class="row" >
+	<div class="hidden-xs">
+	<p class="ornlft">This website is administered by Oak Ridge National Laboratory for the U.S. Department of Energy and the U.S. Environmental Protection Agency.</p>
+	</div>
+</div>
+<div class="row visible-xs">
+	<div class="col-xs-12">
+		<div>
+			<p class="ornlft">This website is administered by Oak Ridge National Laboratory for the U.S. DOE and the U.S. EPA.</p>
+		</div>
+	</div>
+</div>
+<!-- end ORNL Attribution -->
+<!--Sponsor row-->
+<div class="row sponsor-foot visible-xs">
+	
+	<div class="col-xs-7">
+		<a href="//www.eere.energy.gov" target="_parent"><img class="img-responsive" src="/feg/images/home/Logo_Black_Seal_Black_Lettering_Horizontal.png" alt="U.S. Department of Energy - Energy Efficiency and Renewable Energy" style="max-height: 24px"></a>
+	</div>
+	<div class="col-xs-5">
+		<a href="//www.epa.gov/otaq/" target="_parent"><img class="img-responsive pull-right" src="/feg/images/home/EPA_logo_black.png" alt="U.S. Environmental Protection Agency - Office of Transportation and Air Quality" style="max-height: 24px"></a>
+	</div>
+	
+</div><!-- End of Sponsor row -->
+
+
+<div style="height: 2.5em"></div>
+
+	</div><!-- end of main-container -->
+
+	<!-- Core Script for FE.gov -->
+
+<!-- Base script for jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+<!-- Base script for Bootstrap -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+<!-- DAP -->
+<script async src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOE" id="_fed_an_ua_tag"></script>
+
+<!-- Angelfish -->
+<script src="/angelfish.js"></script>
+<script> 
+    agf.pageview();
+</script>
+
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.2.0/respond.min.js"></script>
+<![endif]-->
+
+<script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+
+<script src="/feg/assets/FitVids.js/jquery.fitvids.js"></script>
+
+<!-- Search.  -->
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js" integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+<script src="/feg/assets/js/search/jquery.search.js"></script>
+
+<script>
+	$(document).ready(
+			// Configure the validator globally.
+			function() {
+				jQuery.validator.setDefaults({
+					errorPlacement : function(error, element) {
+						// if the input has a prepend or append element, put the validation msg after the parent div
+						if (element.parent().hasClass('input-prepend')
+								|| element.parent().hasClass('input-append')) {
+							error.insertAfter(element.parent());
+						} else {
+							// else just place the validation message immediately after the input
+							error.insertAfter(element);
+						}
+					},
+					highlight : function(element) {
+						$(element).closest('.control-group').addClass('error');
+					},
+					unhighlight : function(element) {
+						$(element).closest('.control-group').removeClass('error');
+					}
+				});
+			});
+</script>
+
+<script>
+	// Highlights current page on side nav based on URL path and name 
+    $(document).ready(function () {
+		// Setup search autocomplete.
+		$('#search-text').setup_autocomplete();
+
+		// Activates (shades dark gray) subnav item that matches file name & path
+        $('a[href="' + this.location.pathname + '"]').parent().addClass('active');
+
+		// Automotically sizes videos using FitVids plug-in
+		$('.video').fitVids();
+
+		// Initializes dropdowns 
+		$('.dropdown-toggle').dropdown();
+
+		// Activates tooltips
+		$('.tool-tip').tooltip();
+
+		// Activates popovers
+		$('.pop-over').popover();
+
+		// Buttons for state gas prices
+		$('#go-state-btn').on('click', function () {
+			var stateSelection = $('#state').val();
+			if (stateSelection != "None") {
+				newPage="/feg/gasprices/states/"+stateSelection+".shtml";
+				window.location = newPage;
+			}
+		});
+
+		// Give search textbox focus on dropdown.
+		$('#searchDdParent').on('shown.bs.dropdown', function () {
+			setTimeout(function() {
+				$('#search-text').focus();
+			}, 10);
+		});
+	});
+</script>
+
+
+
+
+<script type="text/javascript">
+
+	if (1 == 0) {
+		$('#try-again-modal').modal('show')
+	}
+
+	$(document).ready( function () {
+		$("#collapse-msrp").collapse({toggle: false});
+		$("#collapse-make").collapse({toggle: false});
+		$("#collapse-market").collapse({toggle: false});
+		$("#collapse-fuel").collapse({toggle: false});
+		$("#collapse-vtype").collapse({toggle: false});
+		$("#collapse-trans").collapse({toggle: false});
+		$("#collapse-drive").collapse({toggle: false});
+		$("#collapse-engtech").collapse({toggle: false});
+		$("#collapse-cyl").collapse({toggle: false});
+		$("#collapse-mpg").collapse({toggle: false});
+		UpdatePrev();
+
+	});
+
+	var showall = false;
+
+	$("#btnSearch2").click(function() {
+		search();
+	});
+
+	$('#chkSuper').change(function() {
+		if ( $( this ).is(":checked")) {
+			$('#chkSuperx').prop('checked', false);
+		 
+			//update the hidden value
+			$('#sCharge').val('S');
+
+			$('#SuperCharger').css({display: "block"});
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Supercharger</span> "+" ";
+			$('#SuperCharger').html(htmlstr);
+			$('#SuperCharger').css({display: "block"});
+
+			$('#SuperCharger')
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear supercharger search terms</span></button>&nbsp;') // Create the element
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear supercharger search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearsuperc();}); // Add a click handler
+
+		 } else {
+				$('#sCharge').val(''); 
+				$('#SuperCharger').html("");
+				$('#SuperCharger').css({display: "none"});
+		 }
+	});
+
+	$("#chkSuperx").click(function() {
+		if ( $( this ).is(":checked")) {
+			$('#chkSuper').prop('checked', false);
+			$('#SuperCharger').html("");
+			//update the hidden value
+			$('#sCharge').val('X');
+
+			$('#SuperCharger').css({display: "block"});
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Exclude Supercharger</span> "+" ";
+			$('#SuperCharger').html(htmlstr);
+			$('#SuperCharger').css({display: "block"});
+
+			$('#SuperCharger')
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear supercharger search terms</span></button>&nbsp;') // Create the element
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear no supercharger search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearsuperc();}); // Add a click handler
+
+		 } else {
+			$('#sCharge').val(''); 
+			$('#SuperCharger').html("");
+			$('#SuperCharger').css({display: "none"});
+		 }
+	});
+
+	$('#chkTurbo').change(function() {
+		if ( $( this ).is(":checked")) {
+			$('#chkTurbox').prop('checked', false);
+			 
+			//update the hidden value
+			$('#tCharge').val('T');
+			$('#TurboCharger').css({display: "block"});
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Turbocharger</span> "+" ";
+			$('#TurboCharger').html(htmlstr);
+			$('#TurboCharger').css({display: "block"});
+
+			$('#TurboCharger')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear turbocharger search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear turbocharger search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearturboc();}); // Add a click handler
+
+		} else {
+			$('#tCharge').val(''); 
+			$('#TurboCharger').html("");
+			$('#TurboCharger').css({display: "none"});
+		}
+	});
+
+	$("#chkTurbox").click(function() {
+		if ( $( this ).is(":checked")) {
+			$('#chkTurbo').prop('checked', false); 
+			//update the hidden value
+			$('#tCharge').val('X');
+
+			$('#TurboCharger').css({display: "block"});
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Exclude Turbocharger</span> "+" ";
+			$('#TurboCharger').html(htmlstr);
+			$('#TurboCharger').css({display: "block"});
+
+			$('#TurboCharger')
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear turbocharger search terms</span></button>&nbsp;') // Create the element
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear no turbocharger search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearturboc();}); // Add a click handler
+
+		} else {
+				$('#tCharge').val(''); 
+				$('#TurboCharger').html("");
+				$('#TurboCharger').css({display: "none"});
+		}
+	});
+
+	$('#chkstartstop').change(function() {
+		if ( $( this ).is(":checked")) {
+			$('#chkstartstopx').prop('checked', false);
+			 
+			//update the hidden value
+			$('#startstop').val('Y');
+			$('#StartStop').css({display: "block"});
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Stop-Start</span> "+" ";
+			$('#StartStop').html(htmlstr);
+			$('#StartStop').css({display: "block"});
+
+			$('#StartStop')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear Stop-Start search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear Stop-Start search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearstartstop();}); // Add a click handler
+
+		 } else {
+			$('#startstop').val(''); 
+			$('#StartStop').html("");
+			$('#StartStop').css({display: "none"});
+		 }
+	});
+
+	$('#chkstartstopx').change(function() {
+		if ( $( this ).is(":checked")) {
+			$('#chkstartstop').prop('checked', false);
+			 
+			//update the hidden value
+			$('#startstop').val('X');
+			$('#StartStop').css({display: "block"});
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Exclude Stop-Start</span> "+" ";
+			$('#StartStop').html(htmlstr);
+			$('#StartStop').css({display: "block"});
+
+			$('#StartStop')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear no Stop-Start search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear Stop-Start search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearstartstop();}); // Add a click handler
+
+		 } else {
+			$('#startstop').val(''); 
+			$('#StartStop').html("");
+			$('#StartStop').css({display: "none"});
+		 }
+	});
+
+	$("#btnClear").click(function() {
+		$('#collapse-msrp').collapse('hide');
+		$("#collapse-make").collapse("hide");
+		$("#collapse-market").collapse("hide");
+		$("#collapse-fuel").collapse("hide");
+		$("#collapse-vtype").collapse("hide");
+		$("#collapse-trans").collapse("hide");
+		$("#collapse-drive").collapse("hide");
+		$("#collapse-engtech").collapse("hide");
+		$("#collapse-cyl").collapse("hide");
+		$("#collapse-mpg").collapse("hide");
+		clear();
+	});
+
+	function clearyears () {
+		$('#year1').val('2024').prop('selected',true);
+		$('#year2').val('2025').prop('selected',true);
+
+		var htmlstr = new String();
+		htmlstr = "<span class='title'>Year(s):</span> 2024-2025";
+		$('#ModelYear').html(htmlstr);
+
+		// Update the "hidden" fields
+		$('#YearSel').val("2024-2025");
+
+	}
+
+	function nullyears() {
+		$("#year1").val($("#year1 option:first").val());
+		$("#year2").val($("#year2 option:last").val());
+	}
+
+	function clearmsrp () {
+		//var r = confirm("Press 'OK' to delete the MSRP (Price) search criteria?");
+		//if (r == true) {
+		$('#Msrp').html("");
+		$('#minmsrp').val("0");
+		$('#maxmsrp').val("0");
+		$('#minmsrpsel').val("0");
+		$('#maxmsrpsel').val("0");
+		$('#collapse-msrp').collapse('hide');
+		//}
+	}
+
+	function clearmake () {
+		if ($('#MakeSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Make search criteria?");
+			//if (r == true) {
+			$('#VehMake').html("");
+			$('#MakeSel').val("");
+
+			// clear check kboxes
+			$( "input[name^='cbmk']" ).prop('checked', false ); 
+
+			$('#collapse-make').collapse('hide');
+		}
+	}
+
+	function clearmarket () {
+		if ($('#MarClassSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Market Class search criteria?");
+			//if (r == true) {
+			$('#MarClass').html("");
+			$('#MarClassSel').val("");
+
+			// clear check boxes
+			$( "input[name^='cbmc']" ).prop('checked', false ); 
+
+			$('#collapse-market').collapse('hide');
+			//}
+		}
+	}
+
+	function clearfuel () {
+		if ($('#FuelTypeSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Fuel Type search criteria?");
+			//if (r == true) {
+			$('#FuelType').html("");
+			$('#FuelTypeSel').val("");
+
+			// clear check boxes
+			$( "input[id^='cbft']" ).prop('checked', false );
+
+			$('#collapse-fuel').collapse('hide');
+			//}
+		}
+	}
+
+	function clearvtype () {
+		if ($('#VehTypeSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Vehicle Type search criteria?");
+			//if (r == true) {
+				$('#VehType').html("");
+				$('#VehTypeSel').val("");
+
+				// clear check boxes
+				$( "input[id^='cbvt']" ).prop('checked', false ); 
+
+				$('#collapse-vtype').collapse('hide');
+			//}
+		}
+	}
+
+	function cleartrans () {
+		if ($('#TranySel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Transmission Type search criteria?");
+			//if (r == true) {
+				$('#TranyType').html("");
+				$('#TranySel').val("");
+
+				// clear check boxes
+				$( "input[id^='cbtt']" ).prop('checked', false ); 
+
+				$('#collapse-trans').collapse('hide');
+			//}
+		}
+	}
+
+	function cleardrive () {
+		if ($('#DriveTypeSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Drive Type search criteria?");
+			//if (r == true) {
+				$('#DriveType').html("");
+				$('#DriveTypeSel').val("");
+
+				// clear check boxes
+				$( "input[id^='cbdt']" ).prop('checked', false ); 
+
+				$('#collapse-drive').collapse('hide');
+			//}
+		}
+	}
+
+	function clearcyl () {
+		if ($('#CylindersSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Cylinders search criteria?");
+			//if (r == true) {
+				$('#Cylinders').html("");
+				$('#CylindersSel').val("");
+
+				// clear check boxes
+				$( "input[id^='cbcy']" ).prop('checked', false ); 
+
+				$('#collapse-cyl').collapse('hide');
+			//}
+		}
+	}
+
+	function clearmpg () {
+		if ($('#MpgSel').val()!=""){
+			//var r = confirm("Press 'OK' to delete the Fuel Economy search criteria?");
+			//if (r == true) {
+				$('#Mpg').html("");
+				$('#MpgSel').val("");
+
+				// clear the MPG selections
+				$('#city option').eq(0).prop('selected', true);
+				$('#combined option').eq(0).prop('selected', true);
+				$('#highway option').eq(0).prop('selected', true);
+
+				$('#collapse-mpg').collapse('hide');
+			//}
+		}
+	}
+
+	function clearsuperc () {
+		$('#SuperCharger').html("");
+		$('#SuperCharger').css({display: "none"});
+		$('#sCharge').val('');
+		$('#chkSuper').prop('checked', false);
+		$('#chkSuperx').prop('checked', false);
+		chkeTcollapse();
+	}
+
+	function clearturboc () {
+		$('#TurboCharger').html("");
+		$('#TurboCharger').css({display: "none"});
+		$('#tCharge').val('');
+		$('#chkTurbo').prop('checked', false);
+		$('#chkTurbox').prop('checked', false);
+		chkeTcollapse();
+	}
+
+	function clearstartstop () {
+		$('#StartStop').html("");
+		$('#StartStop').css({display: "none"});
+		$('#startstop').val('');
+		$('#chkstartstop').prop('checked', false);
+		$('#chkstartstopx').prop('checked', false);
+		chkeTcollapse();
+	}
+
+	function clearcyldeact () {
+		$('#CylinderDeact').html("");
+		$('#CylinderDeact').css({display: "none"});
+		$('#cylDeact').val('');
+		$('#chkcylDeact').prop('checked', false);
+		chkeTcollapse();
+	}
+
+	function chkeTcollapse () {
+		if ($('#chkSuper').prop("checked") == true || $('#chkSuperx').prop("checked") == true ||
+			$('#chkTurbo').prop("checked") == true || $('#chkTurbox').prop("checked") == true ||
+			$('#chkstartstop').prop("checked") == true || $('#chkstartstopx').prop("checked") == true ||
+			$('#chkcylDeact').prop("checked") == true ) {
+		} else {
+			$('#collapse-engtech').collapse('hide');
+		}
+
+	}
+
+	function UpdatePrev() {
+
+		//clear();
+		setYears("init");
+		setMsrp("init");
+		setMake("init");
+		setMarClass("init");
+		setFuelType("init");
+		setVehType("init");
+
+		setTrany("init");
+		setDrive("init");
+		setMpg("init");
+		setCylinders("init");
+
+		setSupercharge("init");
+		setTurbocharge("init");
+		setStartStop("init");
+		setCylDeact("init");
+		setSort("init");
+	}
+
+	function setYears(action){
+		var chosenBeg = "";
+		var chosenEnd = "";
+		var yrtxt = "";
+		var saveopt = new String('0');
+
+		if (action == "init"){
+			if (saveopt=='0') {
+
+				chosenBeg = '2024';
+				$('#year1').val(chosenBeg).prop('selected',true);
+				chosenEnd = '2025';
+				$('#year2').val(chosenEnd).prop('selected',true);
+
+			} else {
+
+				chosenBeg = '2024';
+				chosenEnd = '2025';
+				$('#year1').val(chosenBeg).prop('selected',true);
+				$('#year2').val(chosenEnd).prop('selected',true);
+			}
+		} else if(action =='updt') {
+
+			chosenBeg = " ";
+			//var Begcho = $('#year1').val();
+
+			chosenEnd = " ";
+			//var Endcho = $('#year2').val();
+
+			chosenBeg = $('#year1').val();
+			chosenEnd = $('#year2').val();
+
+			var yr1 = chosenBeg;
+			var yr2 = chosenEnd;
+
+			if (chosenEnd < chosenBeg) {
+
+				$('#year1').val(chosenEnd).prop('selected',true);
+				$('#year2').val(chosenBeg).prop('selected',true);
+
+				chosenBeg = yr2;
+				chosenEnd = yr1;
+			}
+
+		}
+
+		var htmlstr = new String();
+
+		// update 'Your Selections'
+		if (parseInt(chosenBeg) > 1983) {
+			yrtxt = chosenBeg;
+			if (parseInt(chosenEnd) > 1983) {
+				yrtxt = chosenBeg+"-"+chosenEnd;
+				if (chosenBeg > chosenEnd) {
+					yrtxt = chosenEnd+"-"+chosenBeg;
+				}
+			}
+			if (chosenBeg == chosenEnd) { yrtxt = chosenBeg;}
+		}
+		// update My Selections
+		htmlstr = "<span class='title'>Year(s): </span>"+yrtxt;
+		 $('#ModelYear').html(htmlstr);
+
+		$('#ModelYear')
+			.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear model year search terms</span></button>&nbsp;') // Create the element
+			.click(function(){ clearyears();}); // Add a click handler
+
+		// update 'hidden field'
+		$('#YearSel').val(yrtxt);
+
+		if (parseInt(chosenBeg) < 1989) {
+			$('#fncharge').removeClass('hidden').addClass('visible');
+		} else {
+			$('#fncharge').removeClass('visible').addClass('hidden');
+		}
+		if (parseInt(chosenBeg) < 2011) {
+			$('#fnstartstop').removeClass('hidden').addClass('visible');
+		} else {
+			$('#fnstartstop').removeClass('visible').addClass('hidden');
+		}
+
+	} // end of setYears function
+
+	function setMsrp(action){
+		var myMin = "0";
+		var myMax = "0";
+		var saveopt = new String('0');
+
+		if (action=="init"){
+
+			if (saveopt=='0') {
+				myMin = "0";
+				myMax = "0";
+
+			} else {
+				var rdofound = false;
+
+				if (isNaN(0)) {
+					myMin = "0";
+				} else {
+					myMin = '0';
+				}
+
+				if (isNaN(0)) {
+					myMax = "0";
+				} else {
+					myMax = '0';
+				}
+
+					// update radio buttons
+					var myid = "";
+					if (new Number(myMin) > 0) {
+						myid = myid+myMin+"_"; 
+					} else {
+						myid = "0_";
+					}
+
+					if (myMax == 0) {
+						myid = "85000_0"; 
+					} else {
+						myid = myid+myMax; 
+					}
+
+					if (rdofound==false) {
+						// update Select boxes
+						len = document.powerSearch.minmsrpsel.length;
+						for (i = 0; i <len; i++) {
+							if (document.powerSearch.minmsrpsel[i].value == myMin) { 
+								document.getElementById('minmsrpsel').selectedIndex = i;
+							}
+						}
+						len = document.powerSearch.maxmsrpsel.length;
+						var i = 0;
+						for (i = 0; i <len; i++) {
+							if (document.powerSearch.maxmsrpsel[i].value == myMax) { 
+								document.getElementById('maxmsrpsel').selectedIndex = i;
+							}
+						}
+					}
+
+				}
+
+		} else if (action == "updt"){
+
+			myMin = $('#minmsrpsel').val();
+			myMax = $('#maxmsrpsel').val();
+
+			var tmpmin = new Number(myMin);
+			var tmpmax = new Number(myMax);
+
+			if ((tmpmax > 0) && (tmpmax < tmpmin)) {
+				var tmpmintxt = myMin;
+				var tmpmaxtxt = myMax;
+				myMin = tmpmaxtxt;
+				myMax = tmpmintxt;
+			}
+
+		}
+
+		// update 'Your Selections'
+		if (parseInt(myMin) > 10 || parseInt(myMax) > 10) {
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Price: </span>";
+			if (new Number(myMin) > 0 && new Number(myMax) > 0) {
+				htmlstr = htmlstr + "$"+(myMin/1000)+"K - ";
+				htmlstr = htmlstr + "$"+(myMax/1000)+"K";
+			} else {
+				if (myMin > 0){
+					htmlstr = htmlstr + " > $"+(myMin/1000)+"K";
+				}
+			 if (myMax > 0){
+					htmlstr = htmlstr + " < $"+(myMax/1000)+"K";
+				}
+			} 
+
+			$('#Msrp').html(htmlstr);
+			$('#Msrp').css('display', 'block');
+			$('#collapse-msrp').collapse('show');
+
+			$('#Msrp')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear MSRP search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear MSRP search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearmsrp();}); // Add a click handler
+
+		} else {
+			//$('#collapse-msrp').collapse('hide');
+			$('#Msrp').html('');
+			$('#Msrp').css('display', 'none');
+		}
+
+		$('#minmsrpsel').val(myMin);
+		$('#maxmsrpsel').val(myMax);
+
+		// set values for the 'hidden' fields
+		$('#minmsrp').val(myMin);
+		$('#maxmsrp').val(myMax);
+
+	} // end of setMsrp function
+
+	function setMake(action){
+		var Make = new String("");
+		var saveopt = new String('0');
+
+		if (action == 'init') {
+
+			Make = '';
+			// update check boxes
+			var teststr = new String(Make);
+			if (teststr.length > 1) {
+				var mytest = teststr.replace(/; /g, "|");
+				MakeArry = mytest.split("|");
+				for ( var x = 0; x < MakeArry.length; x++) {
+					var teststr = new String(MakeArry[x]);
+					var elem = document.getElementById("cbmk" + teststr.trim().replace(/\ /g,'_'));
+					//if (elem){
+						elem.checked = true;
+					//}
+				}
+			}
+
+		} else if (action == 'updt') {
+			var elem = document.getElementsByTagName("*");
+			var tmpname = "none";
+			//var valfound = false;
+
+				var i = 0;
+				for (i = 0; i < elem.length;i++) {
+					if ( typeof elem[i].name == 'string') {
+						tmpname = elem[i].name;
+						if (tmpname.substring(0,4) == "cbmk" && elem[i].checked) { 
+							Make = Make+elem[i].value+"; ";
+							//valfound = true;
+						}
+					}
+				}
+				Make = Make.substring(0,Make.length - 2);
+
+			}
+
+			// update Your Selections
+			$('#VehMake').html("");
+			//var nuMake = Make.substring(0,Make.length - 2);
+			//Make = nuMake.replace(/^\s+|\s+$/g,"");
+
+			if (Make.length > 1){
+					var htmlstr = new String();
+				htmlstr = "<span class='title'>Make: </span>"+Make;
+				$('#VehMake').html(htmlstr);
+				$('#VehMake').css({display: "block"});
+				$("#collapse-make").collapse("show");
+
+				$('#VehMake')
+					.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear manufacturer search terms</span></button>&nbsp;') // Create the element
+					//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear manufacturer search terms</span></button>&nbsp;') // Create the element
+					.click(function(){ clearmake();}); // Add a click handler
+
+			} else {
+				$('#VehMake').html("");
+				$('#VehMake').css({display: "none"});
+				//$("#collapse-make").collapse("hide");
+			}
+
+			// update hidden field
+			$('#MakeSel').val(Make);
+
+
+	} // end of setMake function
+
+	function setMarClass(action){
+		var marclassName = new String("");
+		//var saveopt = new String('0');
+
+		if (action == 'init'){
+
+			// update check boxes
+			marclassName = '';
+
+			var teststr = new String(marclassName);
+			if (teststr.length > 1) {
+				var mytest = teststr.replace(/, /g, "|");
+				MarClassArry = mytest.split("|");
+				var elem = document.getElementsByTagName("*");
+				var tmpname = "none";
+				//var valfound = false;
+				var i = 0;
+				for (i = 0; i < elem.length;i++) {
+					if ( typeof elem[i].name == 'string') {
+						tmpname = elem[i].name;
+						if (tmpname.substring(0,4) == "cbmc") {
+							if (marclassName.indexOf(elem[i].value)> -1) {
+								elem[i].checked = true;
+								//valfound = true;
+							} else {
+								elem[i].checked = false;
+							}
+						}
+					}
+				}
+			}
+			marclassName = marclassName+", ";
+
+		} else if (action == 'updt'){
+
+			//var valfound = false;
+			var elem = document.getElementsByTagName("*");
+			var tmpname = "none";
+			for (i = 0; i < elem.length; i++) {
+				if (typeof elem[i].name == 'string') {
+					tmpname = elem[i].name;
+					if (tmpname.substring(0, 4) == "cbmc" && elem[i].checked) {
+						marclassName = marclassName + elem[i].value + ", ";
+						//valfound = true;
+					}
+				}
+			}
+		}
+
+		marclassName = marclassName.substring(0,marclassName.length - 2)
+		marclassName = marclassName.replace(/^\s+|\s+$/g,"");
+		$('#MarClass').html("");
+
+		// Update Your Selections
+		if (marclassName.length > 1) {
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Market Class:</span> "+marclassName;
+			$('#MarClass').html(htmlstr);
+			$('#MarClass').css({display: "block"});
+			$("#collapse-market").collapse("show");
+
+			$('#MarClass')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear market class search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearmarket();}); // Add a click handler
+
+		} else {
+			$('#MarClass').html("");
+			$('#MarClass').css({display: "none"});
+			//$("#collapse-market").collapse("hide");
+		}
+
+		// Update hidden field
+		$('#MarClassSel').val(marclassName.substring(0, marclassName.length));
+
+	} // end of setMarClass function
+
+	function setFuelType(action){
+
+		var FuelType = new String("");
+		var DisplText = new String("");
+		//var valfound = false;
+		//var saveopt = new String('0');
+
+		if (action=='init') {
+
+			FuelType = '';
+
+			var FuelTypestr = new String(FuelType);
+			if (FuelTypestr.length > 1) {
+				var mytest = FuelTypestr.replace(/, /g, "|");
+				FuelTypeArry = mytest.split("|");
+				for ( var x = 0; x < FuelTypeArry.length; x++) {
+					var tmpText = FuelTypeArry[x].replace(/^\s+|\s+$/g,"");
+					if (tmpText == "CNG"){
+						tmpText = "Cng";
+					}
+					if (tmpText == "LPG"){
+						tmpText = "Lpg";
+					}
+					if (tmpText == "Regular Gasoline"){
+						tmpText = "Regular_Gasoline";
+					}
+					if (tmpText == "Premium Gasoline"){
+						tmpText = "Premium_Gasoline";
+					}
+					if (tmpText == "Midgrade Gasoline"){
+						tmpText = "Midgrade_Gasoline";
+					}
+					if (tmpText == "Hydrogen"){
+						tmpText = "Hydrogen";
+					}
+
+						var elem = document.getElementById("cbft" + tmpText);
+						if (elem){
+							elem.checked = true;
+						}
+					}
+					valfound = true;
+				}
+
+				DisplText = ''+", ";
+				FuelType = ''+", ";
+
+		} else if (action=='updt') {
+
+			var elem = document.getElementsByTagName("*");
+			var tmpname = "none";
+			//var valfound = false;
+			FuelType = "";
+			DisplText = "";
+
+			var i = 0;
+			for (i = 0; i < elem.length;i++) {
+				if ( typeof elem[i].name == 'string') {
+					tmpname = elem[i].name;
+					if (tmpname.substring(0,4) == "cbft" && elem[i].checked) {
+
+						if (elem[i].value == "Regular Gasoline"){
+							DisplText = DisplText + "Regular Gasoline, "
+							FuelType = FuelType +"Regular Gasoline, ";
+						}
+						if (elem[i].value == "Midgrade Gasoline"){
+							DisplText = DisplText + "Midgrade Gasoline, "
+							FuelType = FuelType +"Midgrade Gasoline, ";
+						}
+						if (elem[i].value == "Premium Gasoline"){
+							DisplText = DisplText + "Premium Gasoline, "
+							FuelType = FuelType +"Premium Gasoline, ";
+						}
+						if (elem[i].value == "Diesel"){
+							DisplText = DisplText + "Diesel, "
+							FuelType = FuelType +"Diesel, ";
+						}
+						if (elem[i].value == "Electricity"){
+							DisplText = DisplText + "Electricity, "
+							FuelType = FuelType +"Electricity, ";
+						}
+						if (elem[i].value == "E85"){
+							DisplText = DisplText + "E85, "
+							FuelType = FuelType +"E85, ";
+						}
+						if (elem[i].value == "Hydrogen"){
+							DisplText = DisplText + "Hydrogen, "
+							FuelType = FuelType +"Hydrogen, ";
+						}
+						if (elem[i].value == "CNG"){
+							DisplText = DisplText + "CNG, "
+							FuelType = FuelType +"CNG, ";
+						}
+						if (elem[i].value == "LPG"){
+							DisplText = DisplText + "LPG, "
+							FuelType = FuelType +"LPG, ";
+						}
+
+						valfound = true;
+					}
+				}
+			}
+		}
+
+		// Update Your Selections
+		if (DisplText.length > 2) {
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Fuel Type:</span> "+DisplText.substring(0,DisplText.length-2);
+			$('#FuelType').html(htmlstr);
+			$('#FuelType').css({display: "block"});
+			$("#collapse-fuel").collapse("show");
+
+			$('#FuelType')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear fuel type search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear fuel type search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearfuel();}); // Add a click handler
+
+		} else {
+			$('#FuelType').html("");
+			$('#FuelType').css({display: "none"});
+			//$("#collapse-fuel").collapse("hide");
+		}
+
+		// Update hidden fields
+		$('#FuelTypeSel').val(FuelType.substring(0,FuelType.length-2));
+
+	} // end of setFuelType function
+
+	function setVehType(action){
+		var VehType = ""; // variable for hidden field
+		var DisplText = ""; // variable for Your Selections display
+		//var tmpVal = "";
+		//var saveopt = new String('0');
+
+		if (action=="init"){
+
+			var tmpDispl = "";
+			//var tmpHidden = "";
+
+			VehType = '';
+
+			var VehTypestr = new String(VehType);
+			// Update checkboxes and Create Display text
+			if (VehTypestr.length > 0) {
+				var mytest = VehTypestr.replace(/, /g, "|");
+
+				VehTypeArry = mytest.split("|");
+				for ( var x = 0; x < VehTypeArry.length; x++) {
+
+					var tmpVal = VehTypeArry[x].replace(/^\s+|\s+$/g,""); // to find checkbox
+					tmpDispl = VehTypeArry[x].replace(/^\s+|\s+$/g,""); // for Your Selections
+
+					if (tmpVal == "Gasoline"){
+						tmpDispl = "Conventional Gasoline";
+					}
+					if (tmpVal == "E85"){
+						tmpDispl = "Flex-Fuel (E85)";
+					}
+					if (tmpVal == "Electric"){
+						tmpDispl = "All Electric";
+					}
+					if (tmpVal == "FCV"){
+						tmpDispl = "Fuel Cell";
+					}
+					if (tmpVal == "Plug-in Hybrid" || tmpVal == "PHEV"){
+						tmpVal = "PlugIn";
+					}
+					if (tmpVal=='Dedicated CNG'){
+						tmpVal = "Dedicated_CNG";
+					}
+					if (tmpVal=='Bi-fuel CNG'){
+						tmpVal = "Bi-fuel_CNG";
+						tmpDispl = "Bifuel CNG";
+					}
+					if (tmpVal=='Bi-fuel LPG'){
+						tmpVal = "Bi-fuel_LPG";
+						tmpDispl = "Bifuel LPG";
+					}
+
+					document.getElementById("cbvt"+tmpVal).checked = true;
+					DisplText = DisplText+tmpDispl +", ";
+				}
+
+			}
+
+			VehType = ''+", ";
+
+		} else if (action=='updt'){
+
+			var tmpname = "none";
+			//var valfound = false;
+			VehType = "";
+			DisplText = "";
+
+			var elem = document.getElementsByTagName("*");
+			for (i = 0; i < elem.length;i++) {
+				if ( typeof elem[i].name == 'string') {
+					tmpname = elem[i].name;
+					if (tmpname.substring(0,4) == "cbvt" && elem[i].checked) {
+						tmpVal = elem[i].value;
+						if (tmpVal == "Gasoline"){
+							tmpVal = "Conventional Gasoline";
+						}
+						if (tmpVal == "E85"){
+							tmpVal = "Flex-Fuel (E85)";
+						}
+						if (tmpVal == "Electric"){
+							tmpVal = "All Electric";
+						}
+						if (tmpVal == "Bi-fuel CNG"){
+							tmpVal = "Bifuel CNG";
+						}
+						if (tmpVal == "Bi-fuel LPG"){
+							tmpVal = "Bifuel LPG";
+						}
+						if (tmpVal == "Bi-fuel LPG"){
+							tmpVal = "Bifuel LPG";
+						}
+						if (tmpVal == "FCV"){
+							tmpVal = "Fuel Cell";
+						}
+
+						DisplText = DisplText + tmpVal+", ";
+						VehType = VehType + elem[i].value+", ";
+
+						valfound = true;
+					}
+				}
+			}
+		}
+
+		// Update Your Selections
+		if (!DisplText == "") {
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Vehicle Type:</span> "+DisplText.substring(0,DisplText.length-2);
+			$('#VehType').html(htmlstr);
+			$('#VehType').css({display: "block"});
+			$("#collapse-vtype").collapse("show");
+
+			$('#VehType')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear vehicle type search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear vehicle type search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearvtype();}); // Add a click handler
+
+		} else {
+			$('#VehType').html("");
+			$('#VehType').css({display: "none"});
+			//$("#collapse-vtype").collapse("hide");
+		}
+
+		// Update hidden fields
+		$('#VehTypeSel').val(VehType.substring(0,VehType.length-2));
+
+	} // end setVehType function
+
+	function setTrany(action){
+
+		var TranyType = "";
+		var valfound = false;
+		//var saveopt = new String('0');
+
+		if (action == 'init'){
+
+			// update check boxes
+			var teststr = new String('');
+
+			if (teststr.length > 1) {
+				valfound = true;
+				if (teststr.indexOf('Automatic') > -1){
+					document.getElementById("cbttAutomatic").checked = true;
+				}
+
+				if (teststr.indexOf('Manual') > -1){
+					document.getElementById("cbttManual").checked = true;
+				}
+			}
+			TranyType = teststr +", ";
+
+		} else if (action == 'updt') {
+			valfound = false;
+			var elem = document.getElementsByTagName("*");
+			var tmpname = "none";
+
+			var i = 0;
+			for (i = 0; i < elem.length; i++) {
+				if (typeof elem[i].name == 'string') {
+					tmpname = elem[i].name;
+					if (tmpname.substring(0, 4) == "cbtt" && elem[i].checked) {
+						TranyType = TranyType + elem[i].value + ", ";
+						valfound = true;
+					}
+				}
+			}
+		}
+
+		// update hidden field
+		$('#TranySel').val(TranyType.substring(0, TranyType.length - 2));
+
+		// update Your Selections
+		$('#TranyType').html("");
+		if (valfound) {
+			var htmlstr = new String();
+			htmlstr = "<span class='title'>Transmission:</span> "+TranyType.substring(0,TranyType.length - 2);
+			$('#TranyType').html(htmlstr);
+			$('#TranyType').css({display: "block"});
+			$("#collapse-trans").collapse("show");
+
+			$('#TranyType')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear transmission type search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear transmission type search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ cleartrans();}); // Add a click handler
+
+		} else {
+			$('#TranyType').css({display: "none"});
+			//$("#collapse-trans").collapse("hide");
+		}
+
+	} // end of setTrany function
+
+	function setDrive(action){
+		var DriveType = "";
+		var valfound = false;
+		//var saveopt = new String('0');
+
+		if (action == 'init'){
+
+			driveTypeName = '';
+			// update check boxes
+
+			var teststr = new String(driveTypeName);
+			if (teststr.length > 1) {
+				var mytest = teststr.replace(/, /g, "|");
+				DriveTypeArry = mytest.split("|");
+				var elem = document.getElementsByTagName("*");
+				var tmpname = "none";
+				var valfound = false;
+				var i = 0;
+				for (i = 0; i < elem.length;i++) {
+					if ( typeof elem[i].name == 'string') {
+						tmpname = elem[i].name;
+						if (tmpname.substring(0,4) == "cbdt") {
+							if (driveTypeName.indexOf(elem[i].value)> -1) {
+								elem[i].checked = true;
+								valfound = true;
+								DriveType = DriveType +elem[i].value +", ";
+							} else {
+								elem[i].checked = false;
+							}
+						}
+					}
+				}
+			}
+			driveTypeName = driveTypeName+", ";
+
+		} else if (action =='updt'){
+			var elem = document.getElementsByTagName("*");
+			var tmpname = "none";
+
+			for (i = 0; i < elem.length; i++) {
+				if (typeof elem[i].name == 'string') {
+					tmpname = elem[i].name;
+
+					if (tmpname.substring(0, 4) == "cbdt" && elem[i].checked) {
+						DriveType = DriveType + elem[i].value + ", ";
+						valfound = true;
+					}
+				}
+			}
+		}
+
+		// Update hidden field
+		$('#DriveTypeSel').val(DriveType.substring(0, DriveType.length - 2));
+
+		var tmpDrive1 = DriveType.replace("4WD", "4WD/AWD");
+		var tmpDrive = tmpDrive1.substring(0, tmpDrive1.length - 2);
+
+		// Update Your Selections
+		$('#DriveType').html("");
+		if (valfound) {
+			var htmlstr = new String();
+			//htmlstr = "<span class='title'>Drive:</span> "+DriveType.substring(0,DriveType.length - 2);
+			htmlstr = "<span class='title'>Drive:</span> "+tmpDrive;
+
+			$('#DriveType').html(htmlstr);
+			$('#DriveType').css({display: "block"});
+			$("#collapse-drive").collapse("show");
+
+			$('#DriveType')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear drive type search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear drive type search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ cleardrive();}); // Add a click handler
+
+		} else {
+			$('#DriveType').css({display: "none"});
+			//$("#collapse-drive").collapse("hide");
+		}
+
+	} // end of setDrive function
+
+	function setCylinders(action){
+
+		var Cylinders = "";
+		//var valfound = false;
+		//var saveopt = new String('0');
+
+		if (action=='init') {
+
+			var cylindersName = '';
+
+			// update check boxes
+			var teststr = new String(cylindersName);
+
+			if (teststr.length > 0) {
+				$('#Cylinders').html(cylindersName);
+				var mycils = teststr.replace(/,/g , ", ");
+
+				htmlstr = "<span class='title'>Cylinders:</span> "+mycils;
+				$('#Cylinders').html(htmlstr);
+				$('#Cylinders').css({display: "block"});
+				$("#collapse-cyl").collapse("show");
+
+				$('#Cylinders')
+					.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear cylinders search terms</span></button>&nbsp;') // Create the element
+					//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear cylinders search terms</span></button>&nbsp;') // Create the element
+					.click(function(){ clearcyl();}); // Add a click handler
+
+				var mytest = teststr.replace(/,/g, "|");
+
+					CylindersArry = mytest.split("|");
+					for (x = 0; x< CylindersArry.length; x++) {
+						$('#cbcy'+CylindersArry[x]).prop('checked', true ); 
+					}
+					// update hidden field
+					Cylinders = cylindersName+", ";
+
+			}
+			$('#CylindersSel').val(teststr);
+
+		} else if (action=='updt'){
+
+			var elem = document.getElementsByTagName("*");
+			var tmpname = "none";
+			var cylsel ="";
+
+			var i = 0;
+			for (i = 0; i < elem.length; i++) {
+				if (typeof elem[i].name == 'string') {
+					tmpname = elem[i].name;
+					if (tmpname.substring(0, 4) == "cbcy" && elem[i].checked) {
+						Cylinders = Cylinders + elem[i].value + ", ";
+						cylsel = cylsel+elem[i].value + ",";
+						valfound = true;
+					}
+				}
+			}
+			// update my Selections
+			htmlstr = "<span class='title'>Cylinders:</span> "+Cylinders.substring(0, Cylinders.length - 2);
+			$('#Cylinders').html(htmlstr);
+			$('#Cylinders').css({display: "block"});
+			$("#collapse-cyl").collapse("show");
+
+			$('#Cylinders')
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear cylinders search terms</span></button>&nbsp;') // Create the element
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear cylinders search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearcyl();}); // Add a click handler
+
+			// update hidden field
+			$('#CylindersSel').val(cylsel.substring(0, cylsel.length - 1));
+
+		}
+
+	} // end of setCylinders function
+
+	function setMpg(action){
+		var MpgCity = "0";
+		var MpgCombined = "0";
+		var MpgHwy = "0";
+		var MinMpgVal = "0"
+		var MaxMpgVal = "0";
+		//var MpgSelect = "0";
+		//var saveopt = new String('0');
+
+		if (action=="init"){
+
+			// update select boxes
+
+
+			MpgCity = '0';
+			MpgCombined = '0';
+			MpgHwy = '0';
+			MinMpgVal = "0";
+			MaxMpgVal = "0";
+			MpgSelect = '';
+
+			$("#city").val(MpgCity);
+			$("#highway").val(MpgHwy);
+			$("#combined").val(MpgCombined);
+
+			if (MinMpgVal=="0"){MinMpgVal="";}
+			if (MaxMpgVal=="0"){MaxMpgVal="";}
+			$('#minMPGSel').val(MinMpgVal);
+			$('#maxMPGSel').val(MaxMpgVal);
+
+
+			//var mpgselect = '';
+
+		} else if (action=="menu"){
+
+			MpgCity = $('#city').val(); //document.getElementById('city').options[document.getElementById('city').selectedIndex].value;
+			MpgCombined = $('#combined').val(); //document.getElementById('combined').options[document.getElementById('combined').selectedIndex].value;
+			MpgHwy = $('#highway').val(); //document.getElementById('highway').options[document.getElementById('highway').selectedIndex].value;
+
+			//$('#city').val(MpgCity);
+			//$('#combined').val(MpgCombined);
+			//$('#highway').val(MpgHwy);
+		} else if (action=="type" || action=="val") {
+
+			// clear MPG pull-down menus
+			$('#city option').eq(0).prop('selected', true); //document.getElementById('city').selectedIndex = 0;
+			$('#combined option').eq(0).prop('selected', true); //document.getElementById('combined').selectedIndex = 0;
+			$('#highway option').eq(0).prop('selected', true); //document.getElementById('highway').selectedIndex = 0;
+
+			//set variables to null;
+			MpgCity = "0";
+			MpgCombined = "0";
+			MpgHwy = "0";
+		} 
+
+		$('#MpgSel').val(MpgCity + MpgCombined + MpgHwy);
+		$('#MpgSel').attr('class','hideit');
+
+		// Update Your Selections
+		$('#Mpg').html("");
+		var htmlstr = new String();
+
+		var mpgfound = false;
+
+		if (parseInt(MpgCity) > 0 || parseInt(MpgCombined) > 0 || parseInt(MpgHwy) > 0 ) {
+			htmlstr = "<span class='title'>MPG:</span> ";
+			htmlstr = htmlstr +"<ul style='margin-left:1em; margin-top:4px'>";
+			mpgfound = true;
+
+			if (parseInt(MpgCity) > 0) {
+				htmlstr = htmlstr +"<li style='margin-left:2px'>City \u2265 "+MpgCity+"</li>";
+			}
+			if (parseInt(MpgHwy) > 0) {
+				htmlstr = htmlstr +"<li style='margin-left:2px'>Highway \u2265 "+MpgHwy+"</li>";
+			}
+			if (parseInt(MpgCombined) > 0) {
+				htmlstr = htmlstr +"<li style='margin-left:2px'>Combined \u2265 "+MpgCombined+"</li>";
+			}
+
+			htmlstr = htmlstr +"</ul>";
+		}
+
+		$('#Mpg').html(htmlstr);
+		if (mpgfound) {
+			$('#Mpg').css({display: "block"});
+			$("#collapse-mpg").collapse("show");
+
+			$('#Mpg')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear MPG search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear MPG search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearmpg();}); // Add a click handler
+
+		} else {
+			$('#Mpg').css({display: "none"});
+			//$("#collapse-mpg").collapse("hide");
+		}
+
+	} // end of setMpg function
+
+	function setSupercharge(action) {
+
+		var htmlstr = new String();
+		htmlstr = "";
+		$('#SuperCharger').html(htmlstr);
+		$('#SuperCharger').css({display: "none"});
+
+		var superval = '';
+
+		if (action=='init' && (superval == 'S' || superval == 'X')) {
+
+			// update check boxes
+			var teststr = new String(superval);
+			var htmlstr = new String();
+
+			if (teststr == 'S') {
+				htmlstr = "<span class='title'>Supercharger</span>";
+				$('#chkSuper').prop('checked', true);
+			}
+
+			if (teststr == 'X') {
+				htmlstr = "<span class='title'>Exclude Supercharger</span>";
+				$('#chkSuperx').prop('checked', true);
+
+			}
+
+			$('#SuperCharger').html(htmlstr);
+			$('#SuperCharger').css({display: "block"});
+
+			$('#SuperCharger')
+			.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear supercharger search terms</span></button>&nbsp;') // Create the element
+			//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear supercharger search terms</span></button>&nbsp;') // Create the element
+			.click(function(){ clearsuperc();}); // Add a click handler
+
+			// update the hidden field
+			$('#sCharge').val(teststr);
+			$("#collapse-engtech").collapse("show");
+
+		}
+
+	} // end of setSuperCharger
+
+	function setTurbocharge(action) {
+
+		var htmlstr = new String();
+		htmlstr = "";
+		$('#TurboCharger').html(htmlstr);
+		$('#TurboCharger').css({display: "none"});
+		var turboval = '';
+
+		if (action=='init' && (turboval == 'T' || turboval == 'X')) {
+
+
+			// update check boxes
+			var teststr = new String(turboval);
+			var htmlstr = new String();
+
+			if (teststr == 'T') {
+				htmlstr = "<span class='title'>Turbocharger</span>";
+				$('#chkTurbo').prop('checked', true);
+
+			}
+			if (teststr == 'X') {
+				htmlstr = "<span class='title'>Exclude Turbocharger</span>";
+				$('#chkTurbox').prop('checked', true);
+
+			}
+
+			$('#TurboCharger').html(htmlstr);
+			$('#TurboCharger').css({display: "block"});
+
+			$('#TurboCharger')
+			.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear turbocharger search terms</span></button>&nbsp;') // Create the element
+			//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear turbocharger search terms</span></button>&nbsp;') // Create the element
+			.click(function(){ clearturboc();}); // Add a click handler
+
+			// update the hidden field
+			$('#tCharge').val(teststr);
+
+			$("#collapse-engtech").collapse("show");
+
+		}
+	}
+
+	function setStartStop(action) {
+
+		var htmlstr = new String();
+		htmlstr = "";
+		$('#StartStop').html(htmlstr);
+		$('#StartStop').css({display: "none"});
+		var startstopval = '';
+
+		if (action=='init' && (startstopval == 'Y' || startstopval == 'X')) {
+
+			// update check boxes
+			var teststr = new String(startstopval);
+			if (teststr == 'Y') {
+				var htmlstr = new String();
+				htmlstr = "<span class='title'>Stop-Start</span>";
+				$('#chkstartstop').prop('checked', true);
+
+			}
+			if (teststr == 'X') {
+				htmlstr = "<span class='title'>Exclude Stop-Start</span>";
+				$('#chkstartstopx').prop('checked', true);
+
+			}
+
+			$('#StartStop').html(htmlstr);
+			$('#StartStop').css({display: "block"});
+
+			$('#StartStop')
+			.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear Stop-Start search terms</span></button>&nbsp;') // Create the element
+			//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear Stop-Start search terms</span></button>&nbsp;') // Create the element
+			.click(function(){ clearstartstop();}); // Add a click handler
+
+			// update the hidden field
+			$('#startstop').val(teststr);
+			$("#collapse-engtech").collapse("show");
+
+		}
+
+	}
+
+	function setCylDeact(action) {
+
+		var htmlstr = new String();
+		htmlstr = "";
+		$('#CylinderDeact').html(htmlstr);
+		$('#CylinderDeact').css({display: "none"});
+
+		var cyldeactval = '';
+		$('#cylDeact').val("");
+		if (action=='init' && cyldeactval == 'Y') {
+
+			var teststr = new String(cyldeactval);
+			if (teststr == 'Y') {
+				var htmlstr = new String();
+				htmlstr = "<span class='title'>Cylinder Deactivation</span> "+" ";
+				$('#CylinderDeact').html(htmlstr);
+				$('#CylinderDeact').css({display: "block"});
+
+				$('#CylinderDeact')
+				.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear cylinder deactivation search terms</span></button>&nbsp;') // Create the element
+				//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear cylinder deactivation search terms</span></button>&nbsp;') // Create the element
+				.click(function(){ clearcyldeact();}); // Add a click handler
+
+				$('#chkcylDeact').prop('checked', true);
+
+				$('#cylDeact').val('Y');
+				$("#collapse-engtech").collapse("show");
+
+			}
+
+		} else if (action=='updt') {
+
+			if ($("#chkcylDeact").is(':checked')) {
+
+				$('#CylinderDeact').css({display: "block"});
+					var htmlstr = new String();
+					htmlstr = "<span class='title'>Cylinder deactivation</span> "+" ";
+					$('#CylinderDeact').html(htmlstr);
+					$('#CylinderDeact').css({display: "block"});
+
+					$('#CylinderDeact')
+						.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear cylinder deactivation search terms</span></button>&nbsp;') // Create the element
+						//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear cylinder deactivation search terms</span></button>&nbsp;') // Create the element
+						.click(function(){ clearcyldeact();}); // Add a click handler
+					$('#cylDeact').val('Y');
+
+			} else {
+
+				$('#cylDeact').val(''); 
+				$('#CylinderDeact').html("");
+				$('#CylinderDeact').css({display: "none"});
+			}
+		}
+	}
+
+	function setSort(action){
+
+		if (action == 'init'){
+			document.getElementById("sortBy").value = 'Comb';
+		}
+	} // end of setSort function
+
+	function search() {
+
+		var go = true;
+		var txtmsg = "";
+
+		if(!go){
+			alert(txtmsg);
+		} else {
+			document.forms["powerSearch"].submit();
+		}
+
+	}
+
+	function clear() {
+		$('#ModelYear').html("");
+
+		$('#ModelYear') 
+			//.prepend('<button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span><span class="sr-only">Clear model year search terms</span></button>&nbsp;') // Create the element
+			.prepend('<button type="button" class="btn btn-default btn-xs">&#x274C;<span class="sr-only">Clear model year search terms</span></button>&nbsp;') // Create the element
+			.append("<span class='title'>Year(s):</span> 2024-2025")
+			.click(function(){ clearyears();}); // Add a click handler
+
+		// Update the "Your Selections" panel
+		$('#Msrp').html("");
+		$('#VehMake').html("");
+		$('#MarClass').html("");
+		$('#FuelType').html("");
+		$('#VehType').html("");
+		$('#TranyType').html("");
+		$('#DriveType').html("");
+		$('#Cylinders').html("");
+		$('#SuperCharger').html("");
+		$('#TurboCharger').html("");
+		$('#StartStop').html("");
+		$('#CylinderDeact').html("");
+		$('#Mpg').html("");
+
+		// Update the "hidden" fields
+		$('#YearSel').val("2024-2025");
+		$('#MakeSel').val("");
+		$('#MarClassSel').val("");
+		$('#VehTypeSel').val("");
+		$('#FuelTypeSel').val("");
+		$('#TranySel').val("");
+		$('#DriveTypeSel').val("");
+		$('#CylindersSel').val("");
+		$('#MpgSel').val("");
+		$('#minmsrp').val("0");
+		$('#maxmsrp').val("0");
+		$('#minmsrpsel').val("0");
+		$('#maxmsrpsel').val("0");
+		$('#minmpg').val("");
+		$('#maxmpg').val("");
+		$('#sortBy').val("");
+		$('#sCharge').val("");
+		$('#tCharge').val("");
+		$('#startstop').val("");
+		$('#cylDeact').val("");
+		$('#rowLimit').val("50");
+
+		// update check boxes
+		var elem = document.getElementsByTagName("*");
+		var tmpname = "none";
+		var i = 0;
+		for (i = 0; i < elem.length; i++) {
+			if (typeof elem[i].name == 'string') {
+				tmpname = elem[i].name;
+				if (tmpname.substring(0, 4) == "cbmk" || tmpname.substring(0, 4) == "cbmc" || 
+					tmpname.substring(0, 4) == "cbvt" || tmpname.substring(0, 4) == "cbft" ||
+					tmpname.substring(0, 4) == "cbtt" || tmpname.substring(0, 4) == "cbdt" || 
+					tmpname.substring(0, 4) == "cbcy" ) {
+						elem[i].checked = false;
+				}
+			}
+		}
+
+		// clear the MPG selections
+		$('#city option').eq(0).prop('selected', true);
+		$('#combined option').eq(0).prop('selected', true);
+		$('#highway option').eq(0).prop('selected', true);
+
+		$('#year1').val('2024').prop('selected',true);
+		$('#year2').val('2025').prop('selected',true);
+
+		// Clear Engine Technology checkboxes
+		$('#chkSuper').prop('checked', false);
+		$('#chkSuperx').prop('checked', false);
+		$('#chkTurbo').prop('checked', false);
+		$('#chkTurbox').prop('checked', false);
+		$('#chkstartstop').prop('checked', false);
+		$('#chkstartstopx').prop('checked', false);
+		$('#chkcylDeact').prop('checked', false);
+
+		// Hide Engine Technology notes
+		$('#fncharge').removeClass('visible').addClass('hidden');
+		$('#fnstartstop').removeClass('visible').addClass('hidden');
+
+	}
+
+	function chgMakeDisplay() {
+
+		var mydiv = document.getElementById("allmakes");
+
+		$('#tmpmakecmd').html(""); 
+
+		var htmlstr = "";
+
+		if (mydiv.style.display == "none") {
+			$('#allmakes').css("display", "block");
+			htmlstr = "<a href=\"#\" id=\"chgMake\" onClick=\"javaScript:chgMakeDisplay();return false;\">fewer makes...</a>";
+			$('#tmpmakecmd').html(htmlstr);
+
+		} else {
+			$('#allmakes').css("display", "none");
+			htmlstr = "<a href=\"#\" id=\"chgMake\" onClick=\"javaScript:chgMakeDisplay();return false;\">more makes...</a>";
+			$('#tmpmakecmd').html(htmlstr);
+		}
+
+	} // end of chgMakeDisplay
+
+</script>
+
+</body>
+</html>

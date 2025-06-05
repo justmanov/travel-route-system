@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ваш маршрут</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <h1 class="main-title">Ваш маршрут</h1>
+    
+        <div id="map" style="height: 400px; border-radius: 10px; overflow: hidden;"></div>
+    
+        <div class="route-stats-card">
+            <h2>📊 Статистика маршруту</h2>
+            <ul class="route-stats-list">
+                <li><strong>Відстань:</strong> {{ distance }} км</li>
+                <li><strong>Тривалість:</strong> {{ duration }} хв</li>
+                <li><strong>Витрата пального:</strong> {{ fuel }} л</li>
+                <li><strong>Кількість памʼяток:</strong> {{ poi_count }}</li>
+            </ul>
+        </div>
+        
+    
+        <div class="steps-box">
+            <h2>Опис маршруту</h2>
+            <div class="route-steps">
+                {% for step in steps %}
+                  <div class="step-box">
+                    <span class="step-num">{{ loop.index }}.</span>
+                    <span class="step-text">{{ step }}</span>
+                  </div>
+                {% endfor %}
+              </div>
+              
+        </div>
+        
+        <div class="button-wrapper">
+            <form action="/" method="get" style="text-align: center;">
+                <button type="submit">Новий маршрут</button>
+            </form>
+            
+        </div>
+        
+    </div> 
+
+    <script>
+        const route = JSON.parse(`{{ geojson|tojson|safe }}`);
+    
+        const map = L.map('map').setView([50.45, 30.52], 10);
+    
+        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+    
+        const geoLayer = L.geoJSON(route).addTo(map);
+        map.fitBounds(geoLayer.getBounds());
+        // Додавання маркерів POI на карту (опційно)
+        {% if pois %}
+        const pois = {{ pois | tojson | safe }};
+        pois.forEach(function(poi) {
+            var marker = L.marker([poi.lat, poi.lon]).addTo(map);
+            marker.bindPopup("<strong>" + poi.name + "</strong><br>" + poi.lat.toFixed(5) + ", " + poi.lon.toFixed(5));
+        });
+        {% endif %}
+    </script>
+    
+</body>
+</html>
